@@ -1,8 +1,8 @@
 # CS421proj
 
-## **Team Name: **Underwork
+## Team Name: Underwork
 
-## **Team Members: **
+## Team Members: 
 
 * Yaoqi Dong
 
@@ -12,16 +12,16 @@
 
 * Jiayuan Wen
 
-## **Our Idea:**
+## Our Idea:
 Our idea for our project is to create a portfolio website that shows off custom contents we made for several video games (Such as skins, modes, and levels). Each custom content will be accompanied with pictures (with videos if applicable) and development history.
 
-## **Front end:**
+## Front end:
 Main pages include home, gallery, about us and contact info.
 
-## **Back end:**
+## Back end:
 Node.js
 
-##  **Features:**
+## Features:
 ● Horizontal scrollable flexboxes with clickable thumbnails of our items.
 
 ● Dedicated page for each of our items, which can be accessed via clicking on the thumbnails in flexbox.
@@ -33,7 +33,7 @@ with the development history of said item being next to the pictures in the form
 
 ● Allow users to post comments at the bottom of each item. Both with and without an account (as guest). We will be using comment API such as Disqus.
 
-## **Minimal Viable Product Features:**
+## Minimal Viable Product Features:
 ● Colored head, footer, and background for both main page and item pages.
 
 ● The main page will have the website’s title, under the title is a short description of what the website is showcasing.
@@ -46,7 +46,7 @@ with the development history of said item being next to the pictures in the form
 
 ● The footer will contain hyperlinks to Home and About Us, website copyright, and contact information (such as email).
 
-##   **Stretch goals:**
+## Stretch goals:
 ● The background of each item’s page will be a video or GIF showing the item in action
 (Similar to Valve’s website as seen here:  ([https://www.valvesoftware.com/en/](https://www.valvesoftware.com/en/) )rather than a plain color.
 
