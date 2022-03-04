@@ -48,7 +48,7 @@ with the development history of said item being next to the pictures in the form
 
 ## Stretch goals:
 ● The background of each item’s page will be a video or GIF showing the item in action
-(Similar to Valve’s website as seen here:  ([https://www.valvesoftware.com/en/](https://www.valvesoftware.com/en/) )rather than a plain color.
+(Similar to Valve’s website as seen here:  [https://www.valvesoftware.com/en/](https://www.valvesoftware.com/en/) )rather than a plain color.
 
 ● The thumbnails on the main page will have slight zoom animation and thumbnail brightness change when the mouse hovers above them.
 
