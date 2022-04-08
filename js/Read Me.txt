@@ -1,0 +1,1 @@
+Any JavaScript files we need for the website, except server.js and website.js , goes to this folder.
