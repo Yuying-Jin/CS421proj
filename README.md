@@ -1,8 +1,9 @@
-# CS421proj
+# CMPSC421 Project: Weldon's Portfolio Site
 
-## Team Name: Underwork
+## Team Name
+Underwork
 
-## Team Members: 
+## Team Members 
 
 * Yaoqi Dong
 
@@ -12,44 +13,86 @@
 
 * Jiayuan Wen
 
-## Our Idea:
-Our idea for our project is to create a portfolio website that shows off custom contents we made for several video games (Such as skins, modes, and levels). Each custom content will be accompanied with pictures (with videos if applicable) and development history.
+## Our Idea
+Our idea for our project is to create a portfolio website that will showcase projects we made for various video games (such as skins, game modes, and levels). Each showcased project will have its own page with development history and pictures (with videos if applicable). 
 
-## Front end:
-Main pages include home, gallery, about us and contact info.
+## Front end
+Uses EJS(html) and CSS files to determine the appearance and placement of text, images, and videos for the site’s pages. Uses EJS(html) to send page requests to backend.
 
-## Back end:
-Node.js
+## Back end
+Uses Node.js to run basic server. Uses Express to receive page requests then render associating EJS(html) and accommodating CSS files into web pages.
 
-## Features:
-● Horizontal scrollable flexboxes with clickable thumbnails of our items.
+## Features
+* Navigation hyperlinks in sidebar, header, and footer  
+Adding hyperlinks to sidebar, header, and footer to allow users to jump to other pages conveniently. 
 
-● Dedicated page for each of our items, which can be accessed via clicking on the thumbnails in flexbox.
+* Stylized interactive text and images  
+If users hover on a hyperlink or clickable text, the text color will change. If users hover on a clickable image, the image will perform a zoom animation. 
 
-● On the dedicated page of each item, there will be pictures and/or videos of said item,
-with the development history of said item being next to the pictures in the form of text. There will also be a download link if said item is publicly available.
+* Gallery page & stylized content listing  
+All projects will be listed in grid fashion and classified based on their associated game. Each project will have a square thumbnail with its title at the center. Users will be able to click on a thumbnail then directed to the project’s page.
 
-● Instead of a plain color or static picture as the background of each item’s dedicated page, we will be implementing an animated background showing the item in action.
+* Appropriate background video for each page  
+The background of all pages of the site will be animated with a video. For the homepage, About Us, Gallery, and error page, the background video will show clips of various projects in action. For each project’s page, the background video will show only clips associated with that project. 
 
-● Allow users to post comments at the bottom of each item. Both with and without an account (as guest). We will be using comment API such as Disqus.
+* All pages load properly and accessible  
+All pages will be accessible by the user and load properly with no visual glitch nor errors.
 
-## Minimal Viable Product Features:
-● Colored head, footer, and background for both main page and item pages.
+* Proper error handling  
+Properly handle error code and display it to the users (such as 404 for nonexistent pages). 
 
-● The main page will have the website’s title, under the title is a short description of what the website is showcasing.
+## Endpoints
+* Home  
+The home page will contain a short description of the site and will have an animated background on the side.
 
-● Still on the main page, below both title and description are square thumbnails of items we want to showcase. They are clickable and direct visitors to each item’s page.
+* Gallery  
+The gallery will list the item available in a grid fashion and can be sorted alphabetically or by the date they were released(sorting is a stretch-goal).
 
-● Each item’s page will have pictures and descriptions associated with said item. If the item is publicly available, a hyperlink to the item’s download page will be added to the end of the item’s description.
+* About Us  
+The about us page will give a brief description of ourselves and will also contain our contact information.
 
-● The head of every page will have the following: Home (Take visitor back to main page), About Us (Send visitor to a dedicated page with every site creators’ name listed and a short paragraph stating the purpose and history of the website), and Contact (Listing each site creator’s contact information).
+* Dedicated pages for projects  
+Pages for individual projects that will describe and give information on that given project. Unlike all the other pages, its background will be entirely animated (Dimmed for visibility).
 
-● The footer will contain hyperlinks to Home and About Us, website copyright, and contact information (such as email).
+<sub>*All pages will contain a header and a footer that will navigate to other pages of the site. The footer will also contain copyright and contact information.</sub>
 
-## Stretch goals:
-● The background of each item’s page will be a video or GIF showing the item in action
-(Similar to Valve’s website as seen here:  [https://www.valvesoftware.com/en/](https://www.valvesoftware.com/en/) )rather than a plain color.
+## Tools Used
+* Express
+* Node.js
+* WebStorm
+* Bootstrap
 
-● The thumbnails on the main page will have slight zoom animation and thumbnail brightness change when the mouse hovers above them.
 
-● Implement comment API, which allows users to post comments with or without an account at the bottom of each item’s page. (Emojis, pictures, and GIFs are also allowed)
+## Minimal Viable Product Features
+* Colored pages, including headers, sidebar, footers, text, and body.
+
+
+* The head and footer of every page will have the following navigation links: Home, Gallery,  and About Us. The footer will also contain website copyright, and contact information (ex: developer email). 
+
+
+* The homepage will have the website’s title, under the title is a short description of what the website is showcasing. Below both title and description are navigation buttons for Gallery and About Us, clicking on them will direct users to the associated page.
+
+
+* The Gallery page will display thumbnails and titles of showcased projects in a grid fashion. Each thumbnail is clickable and will direct users to the item’s dedicated page. Each thumbnail will perform a small zoom animation on mouse hover. 
+
+* Each project’s page will have pictures, videos, description, and development history associated with said project, similar to a wiki entry. If the project is publicly available, a hyperlink to the project’s download page will be added to the end of the project’s page. 
+
+* The error page will display the error code to the user, common error codes such as 404 or 202 will have a description below the code. The page will still follow the color scheme of the other pages and will still contain the header and footer.
+
+* For the homepage, Gallery, and About Us, the background will play a video consisting of various showcased projects in action. The main body of these pages will be a static color so that the background video is only visible from the sides.
+
+* For each project’s page, the background will play a video related to that project only. The body will be semi-transparent so that the background video is fully visible but dark enough to not disrupt reading. 
+
+* Sidebar will appear for Gallery and each project’s page, not the case for Home and About Us.
+
+* Interactive text, such as hyperlinks, will change color on hover.
+
+* The About Us page will contain information about the developers and the website. It will also contain our contact information so that the users may contact us. 
+
+## Stretch Goals
+* Implementing a search function and a search result page that will allow the user to search for a specific project(s).
+
+* Implementing a sorting function in Gallery and Search Result that will sort the project thumbnails alphabetically or by their release date.
+
+* Implement comment API, which allows users to post comments with or without an account at the bottom of each item’s page (Emojis, pictures, and GIFs are also allowed).
+
