@@ -1,0 +1,119 @@
+:root{
+    --darkgrey: #343434;
+    --purple: #A400E6;
+    --containerSize: 950px;
+}
+
+body{
+    background-color:white;
+    
+}
+p{
+    color:black;
+    font-family:arial, helvetica, sans-serif;
+    font-size:20px;
+}
+h1{
+    color:white;
+    margin-left:-550px;
+    font-family: Arial;
+    font-weight:lighter;
+    font-size: 30px;
+    margin-bottom:10px;
+}
+#titleLine{
+    height:15px;
+    width:calc(-50px + var(--containerSize));
+    stroke:var(--purple);
+    stroke-width: 8;
+}
+
+.galleryContainer{
+    height: auto;
+    width:var(--containerSize);
+    margin:auto;
+    top:-10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--darkgrey);
+    overflow: hidden;
+    padding-top:30px;
+    padding-bottom:50px;
+    margin-top:-10px;
+    margin-bottom:-10px;
+}
+
+.galleryWrapper{
+    width:700px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.gallery{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #777;
+    margin:10px;
+    cursor: pointer; 
+}
+
+.layer {
+      opacity: 0;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 95%;
+      width:10%;
+      background: var(--darkgrey);
+      transition: all 0.3s ease-in;
+}
+.layer p {
+    color:white;
+    margin:-100px;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+    transform: scale(0.1);
+ }
+.gallery img{
+    height:210px;
+/*    filter: brightness(80%);*/
+    transition: all 0.3s ease-in;
+}
+.gallery:hover .layer{
+      opacity: 0.7;
+      width: 95%;
+      transition: all 0.3s ease;
+}
+.gallery:hover p{
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+/*.gallery:hover img{
+    height:210px;
+    filter: brightness(1);
+    transition: all 0.3s ease;
+}*/
+
+.bg-video{
+    object-fit:cover;
+    width:calc((100% - var(--containerSize))/2);
+    height:100vh;
+    position:fixed;
+    top:0;
+    filter:brightness(0.7);
+}
+.left{
+    left:0;
+}
+.right{
+    right:0;
+}
