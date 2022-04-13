@@ -105,15 +105,12 @@ h1{
 
 .bg-video{
     object-fit:cover;
-    width:calc((100% - var(--containerSize))/2);
+    width:100vw;
     height:100vh;
     position:fixed;
     top:0;
     filter:brightness(0.7);
-}
-.left{
+    z-index: -1;
     left:0;
-}
-.right{
     right:0;
 }
