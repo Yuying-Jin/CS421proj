@@ -1,0 +1,1 @@
+All EJS files to this folder.
