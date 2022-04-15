@@ -1,0 +1,323 @@
+
+<style>
+    :root{
+        --darkgrey: #343434;
+        --purple: #A400E6;
+        --containerSize: 945px;
+    }
+    .container{
+        height: 100%;
+        width:var(--containerSize);
+        margin:auto;
+        top:-10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: var(--darkgrey);
+        overflow: hidden;
+        padding-top:30px;
+        padding-bottom:50px;
+        margin-top:-10px;
+        margin-bottom:-10px;
+    }
+    body
+    {
+        background: darkgray;
+    }
+    div.text{
+        font-family: Arial;
+        color:white;
+        position: absolute;
+        top: 120px;
+        left: 200px;
+        width: auto;
+        height: auto;
+
+    }
+    h1{
+        font-family: Arial;
+        color: white;
+        position: relative;
+        left: -400px;
+    }
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    .modal-content {
+        font-family: Arial;
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        border: 1px solid #888;
+        width: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s
+    }
+
+    /* Add Animation */
+    @-webkit-keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+    }
+
+    @keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+    }
+
+    /* The Close Button */
+    .close {
+        color: white;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .modal-header {
+        font-family: Arial;
+        padding: 2px 16px;
+        background-color: #888;
+        color: white;
+    }
+
+    .modal-body {padding: 2px 16px;}
+
+    .Yaoqi{
+        font-family: Arial;
+        color:white;
+        position: absolute;
+        bottom: 210px;
+        left: 200px;
+        font-size: 18px;
+    }
+    .Weldon{
+        font-family: Arial;
+        color:white;
+        position: absolute;
+        bottom: 140px;
+        left: 200px;
+        font-size: 18px;
+    }
+    .Yuying{
+        font-family: Arial;
+        color:white;
+        position: absolute;
+        bottom: 70px;
+        left: 200px;
+        font-size: 18px;
+    }
+    .Tommy{
+        font-family: Arial;
+        color:white;
+        position: absolute;
+        bottom: 0px;
+        left: 200px;
+        font-size: 18px;
+    }
+
+
+
+</style>
+
+
+<body>
+<div class="container">
+    <h1> About us</h1>
+    <svg width=100% height="3">
+        <rect width= 100% height= 100%
+              style="fill:purple;stroke-width:10" />
+    </svg>
+
+    <div class="text">
+        <body>
+        text:
+        information
+        some descriptions
+        .....
+        <br>
+        .
+        <br>
+        .
+        <br>
+        .
+        <br>
+        .
+        <br>
+        .
+        </body>
+    </div>
+
+
+    <div class="Yaoqi">
+        <p>Yaoqi Dong</p>
+
+        <!-- Trigger/Open The Modal -->
+        <button class="modal-button" href="#myModal1">Information</button>
+
+        <!-- The Modal -->
+        <div id="myModal1" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">×</span>
+                    <h2>Modal Header(ie.yaoqi dong contact information below)</h2>
+                </div>
+                <div class="modal-body">
+                    <p>PSU id: yxd5177@psu.edu</p>
+                    <p>Some other text...</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="Weldon">
+        <p>Weldon Wen</p>
+
+
+        <button class="modal-button" href="#myModal2">Information</button>
+
+
+        <div id="myModal2" class="modal">
+
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <span class="close">×</span>
+                    <h2>Weldon Wen's information</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the Modal Body(random mail)</p>
+                    <p>Some other text...</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="Yuying">
+        <p>Yuying Jin</p>
+
+
+        <button class="modal-button" href="#myModal2">Information</button>
+
+
+        <div id="myModal3" class="modal">
+
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <span class="close">×</span>
+                    <h2>Yuying Jin's information</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the Modal Body(random mail)</p>
+                    <p>Some other text...</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="Tommy">
+        <p>Tommy Fornear</p>
+
+
+        <button class="modal-button" href="#myModal2">Information</button>
+
+
+        <div id="myModal4" class="modal">
+
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <span class="close">×</span>
+                    <h2>Tommy Fornear's information</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the Modal Body(random mail)</p>
+                    <p>Some other text...</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+    // Get the button that opens the modal
+    var btn = document.querySelectorAll("button.modal-button");
+
+    // All page modals
+    var modals = document.querySelectorAll('.modal');
+
+    // Get the <span> element that closes the modal
+    var spans = document.getElementsByClassName("close");
+
+    // When the user clicks the button, open the modal
+    for (var i = 0; i < btn.length; i++) {
+        btn[i].onclick = function(e) {
+            e.preventDefault();
+            modal = document.querySelector(e.target.getAttribute("href"));
+            modal.style.display = "block";
+        }
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    for (var i = 0; i < spans.length; i++) {
+        spans[i].onclick = function() {
+            for (var index in modals) {
+                if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
+            }
+        }
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target.classList.contains('modal')) {
+            for (var index in modals) {
+                if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
+            }
+        }
+    }
+</script>
+
+</body>
+
+
