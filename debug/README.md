@@ -1,4 +1,4 @@
-This is where to test different web pages.
+This is the place to test different web pages.
 
 If you have .ejs, simply rename the extension to .html.
 
