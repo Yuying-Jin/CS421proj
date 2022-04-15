@@ -1,0 +1,1 @@
+All stylesheet such as CSS files goes to this folder.

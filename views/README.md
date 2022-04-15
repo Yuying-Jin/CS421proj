@@ -1,0 +1,1 @@
+All EJS files goes to this folder.
