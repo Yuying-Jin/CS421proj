@@ -1,6 +1,6 @@
 :root{
     --darkgrey: #343434;
-    --purple: #A400E6;
+    --purple: mediumpurple;
     --containerSize: 950px;
 }
 
@@ -109,7 +109,7 @@ h1{
     height:100vh;
     position:fixed;
     top:0;
-    filter:brightness(0.6);
+    filter:brightness(0.7);
     z-index: -1;
     left:0;
     right:0;

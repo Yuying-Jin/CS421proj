@@ -1,12 +1,12 @@
 :root{
     --darkgrey: #343434;
-    --purple: #A400E6;
+    --purple: mediumpurple;
     --containerSize: 950px;
 }
 
 body{
     background-color:white;
-    
+
 }
 p{
     color:black;
@@ -61,19 +61,19 @@ h1{
     align-items: center;
     border: 1px solid #777;
     margin:10px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .layer {
-      opacity: 0;
-      position: absolute;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 95%;
-      width:10%;
-      background: var(--darkgrey);
-      transition: all 0.3s ease-in;
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    width:10%;
+    background: var(--darkgrey);
+    transition: all 0.3s ease-in;
 }
 .layer p {
     color:white;
@@ -81,16 +81,16 @@ h1{
     opacity: 0;
     transition: all 0.3s ease-in;
     transform: scale(0.1);
- }
+}
 .gallery img{
     height:210px;
-/*    filter: brightness(80%);*/
+    /*    filter: brightness(80%);*/
     transition: all 0.3s ease-in;
 }
 .gallery:hover .layer{
-      opacity: 0.7;
-      width: 95%;
-      transition: all 0.3s ease;
+    opacity: 0.7;
+    width: 95%;
+    transition: all 0.3s ease;
 }
 .gallery:hover p{
     opacity: 1;
@@ -109,7 +109,7 @@ h1{
     height:100vh;
     position:fixed;
     top:0;
-    filter:brightness(0.6);
+    filter:brightness(0.7);
     z-index: -1;
     left:0;
     right:0;
