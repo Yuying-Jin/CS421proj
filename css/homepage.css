@@ -81,7 +81,7 @@ h1{
     align-items: center;
     height: 95%;
     width:10%;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease;
 }
 .layer p {
     color:white;
@@ -93,7 +93,7 @@ img{
     height:320px;
     filter: brightness(0.5);
     /*    filter: brightness(80%);*/
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease;
 }
 .gallery:hover {
     opacity: 1;

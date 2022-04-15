@@ -80,13 +80,13 @@ h1{
     color:white;
     margin:-100px;
     opacity: 0;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease;
     transform: scale(0.1);
 }
 .gallery img{
     height:210px;
     /*    filter: brightness(80%);*/
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease;
 }
 .gallery:hover .layer{
     opacity: 0.7;
