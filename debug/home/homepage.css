@@ -1,6 +1,6 @@
 :root{
-    --darkgrey: #343434;
-    --purple: mediumpurple;
+    --darkgrey: #1a1a20;
+    --purple: #7034fc;
     --containerSize: 950px;
 }
 
@@ -68,7 +68,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 4px solid mediumpurple;
+    border: 4px solid #7034fc;
     margin: 50px;
     cursor: pointer;
 }
