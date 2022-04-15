@@ -1,6 +1,6 @@
 :root{
-    --darkgrey: #1a1a20;
-    --purple: #7034fc;
+    --darkgrey: #201c24;
+    --purple: #6931f9;
     --containerSize: 950px;
 }
 
@@ -68,9 +68,10 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 4px solid #7034fc;
+    border: 4px solid var(--purple);
     margin: 50px;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .layer {
@@ -80,18 +81,19 @@ h1{
     align-items: center;
     height: 95%;
     width:10%;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease;
 }
 .layer p {
     color:white;
     margin:-100px;
     font-size: 30px;
+    transition: all 0.3s ease;
 }
 img{
     height:320px;
     filter: brightness(0.5);
     /*    filter: brightness(80%);*/
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease;
 }
 .gallery:hover {
     opacity: 1;
