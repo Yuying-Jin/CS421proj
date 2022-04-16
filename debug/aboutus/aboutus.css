@@ -1,6 +1,6 @@
 :root{
-    --darkgrey: #343434;
-    --purple: mediumpurple;
+    --darkgrey: #201C24FF;
+    --purple: #6931F9FF;
     --containerSize: 945px;
 }
 .container{
@@ -103,13 +103,13 @@ h1{
 .modal-header {
     font-family: Arial;
     padding: 2px 16px;
-    background-color: mediumpurple;
+    background-color: var(--purple);
     color: white;
 }
 
 .modal-body {
     padding: 2px 16px;
-    border-color: mediumpurple;
+    border-color: var(--purple);
     background: #343434;
 }
 
