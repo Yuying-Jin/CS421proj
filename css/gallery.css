@@ -3,7 +3,9 @@
     --purple: #6931f9;
     --containerSize: 950px;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-color:white;
 
@@ -80,13 +82,13 @@ h1{
     color:white;
     margin:-100px;
     opacity: 0;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease;
     transform: scale(0.1);
 }
 .gallery img{
     height:210px;
     /*    filter: brightness(80%);*/
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease;
 }
 .gallery:hover .layer{
     opacity: 0.7;
@@ -114,4 +116,35 @@ h1{
     z-index: -1;
     left:0;
     right:0;
+}
+
+canvas{
+    background: #111111;
+    object-fit:cover;
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    top:0;
+    /*filter:brightness(0.7);*/
+    z-index: -1;
+    left:0;
+    right:0;
+}
+
+#goTop{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    font-size: 18px;
+    background-color: #343434;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    opacity: 0.7;
+}
+
+#goTop:hover{
+    opacity:1;
 }
