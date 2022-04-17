@@ -18,10 +18,6 @@
     margin-top:-10px;
     margin-bottom:-10px;
 }
-body
-{
-    background: darkgray;
-}
 .description{
     font-family: Arial;
     color:white;
@@ -156,6 +152,19 @@ h1{
     position:fixed;
     top:0;
     filter:brightness(0.6);
+    z-index: -1;
+    left:0;
+    right:0;
+}
+canvas{
+    /*background: #111111;*/
+    background-image: radial-gradient(circle,var(--purple) -400%, #111111 100%);
+    object-fit:cover;
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    top:0;
+    /*filter:brightness(0.7);*/
     z-index: -1;
     left:0;
     right:0;

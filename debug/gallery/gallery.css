@@ -105,19 +105,6 @@ h1{
     filter: brightness(1);
     transition: all 0.3s ease;
 }*/
-
-.bg-video{
-    object-fit:cover;
-    width:100vw;
-    height:100vh;
-    position:fixed;
-    top:0;
-    filter:brightness(0.7);
-    z-index: -1;
-    left:0;
-    right:0;
-}
-
 canvas{
     /*background: #111111;*/
     background-image: radial-gradient(circle,var(--purple) -400%, #111111 100%);
@@ -131,7 +118,6 @@ canvas{
     left:0;
     right:0;
 }
-
 #goTop{
     width: 60px;
     height: 60px;
