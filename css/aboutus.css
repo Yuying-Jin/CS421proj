@@ -1,7 +1,8 @@
 :root{
-    --darkgrey: #201C24FF;
-    --purple: #6931F9FF;
-    --containerSize: 945px;
+    --darkgrey: #201c24;
+    --darkergrey: #171717;
+    --purple: #6931f9;
+    --containerSize: 950px;
 }
 .container{
     height: auto;
