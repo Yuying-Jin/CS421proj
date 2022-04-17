@@ -1,5 +1,5 @@
 # CMPSC421 Project: Weldon's Portfolio Site
-**Go to "Project" branch for actual project source code.*
+**Go to "Project" branch for project source code.*
 <br>
 <br>
 ## Team Name
