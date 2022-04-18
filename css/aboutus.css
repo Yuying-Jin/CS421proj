@@ -1,9 +1,10 @@
 :root{
     --darkgrey: #201C24FF;
     --purple: #6931F9FF;
+    --darkergrey: #171717FF;
     --containerSize: 945px;
 }
-.container{
+#container_aboutus{
     height: auto;
     width: var(--containerSize);
     margin: auto;
@@ -61,13 +62,19 @@ h1{
     background-color: #fefefe;
     margin: auto;
     padding: 0;
-    border: 1px solid #888;
+    border: none;
+    border-radius: 0px;
     width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s
+}
+.modal-button{
+    background: var(--purple);
+    color: white;
+    border-style: solid;
+    border-color: var(--darkergrey);
 }
 
 /* Add Animation */
@@ -87,6 +94,7 @@ h1{
     float: right;
     font-size: 28px;
     font-weight: bold;
+
 }
 
 .close:hover,
@@ -101,12 +109,22 @@ h1{
     padding: 2px 16px;
     background-color: var(--purple);
     color: white;
+    border-style: none;
+    border-radius: 0px;
 }
 
 .modal-body {
-    padding: 2px 16px;
+    padding: 20px 16px;
+    padding-bottom: 5px;
     border-color: var(--purple);
     background: #343434;
+    border-style: none;
+}
+
+.contact-name{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
 }
 
 .Yaoqi{
