@@ -33,7 +33,6 @@ h1{
 .galleryContainer{
     height: auto;
     width:var(--containerSize);
-    margin:auto;
     top:-10px;
     display: flex;
     flex-direction: column;
@@ -42,8 +41,7 @@ h1{
     overflow: hidden;
     padding-top:30px;
     padding-bottom:50px;
-    margin-top:-10px;
-    margin-bottom:-10px;
+    margin: -10px auto;
 }
 
 .galleryWrapper{
