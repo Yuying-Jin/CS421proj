@@ -60,7 +60,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #777;
+    border: 4px solid var(--purple);
     margin:10px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -80,15 +80,17 @@ h1{
 .layer p {
     color:white;
     margin:-100px;
+    text-align: center;
     opacity: 0;
     transition: all 0.3s ease;
     transform: scale(0.1);
 }
 .gallery img{
     height:210px;
-    /*    filter: brightness(80%);*/
+    /*filter: brightness(80%);*/
     transition: all 0.3s ease;
 }
+
 .gallery:hover .layer{
     opacity: 0.7;
     width: 95%;
@@ -98,6 +100,9 @@ h1{
     opacity: 1;
     transform: scale(1);
     transition: all 0.3s ease;
+}
+.gallery:hover{
+    transform: scale(1.1);
 }
 /*.gallery:hover img{
     height:210px;
