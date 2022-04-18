@@ -1,9 +1,10 @@
 :root{
-    --darkgrey: #343434;
-    --purple: mediumpurple;
+    --darkgrey: #201C24FF;
+    --purple: #6931F9FF;
+    --darkergrey: #171717FF;
     --containerSize: 945px;
 }
-.container{
+#container_aboutus{
     height: auto;
     width: var(--containerSize);
     margin: auto;
@@ -17,10 +18,6 @@
     padding-bottom:50px;
     margin-top:-10px;
     margin-bottom:-10px;
-}
-body
-{
-    background: darkgray;
 }
 .description{
     font-family: Arial;
@@ -65,13 +62,19 @@ h1{
     background-color: #fefefe;
     margin: auto;
     padding: 0;
-    border: 1px solid #888;
+    border: none;
+    border-radius: 0px;
     width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s
+}
+.modal-button{
+    background: var(--purple);
+    color: white;
+    border-style: solid;
+    border-color: var(--darkergrey);
 }
 
 /* Add Animation */
@@ -91,6 +94,7 @@ h1{
     float: right;
     font-size: 28px;
     font-weight: bold;
+
 }
 
 .close:hover,
@@ -103,14 +107,24 @@ h1{
 .modal-header {
     font-family: Arial;
     padding: 2px 16px;
-    background-color: mediumpurple;
+    background-color: var(--purple);
     color: white;
+    border-style: none;
+    border-radius: 0px;
 }
 
 .modal-body {
-    padding: 2px 16px;
-    border-color: mediumpurple;
+    padding: 20px 16px;
+    padding-bottom: 5px;
+    border-color: var(--purple);
     background: #343434;
+    border-style: none;
+}
+
+.contact-name{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
 }
 
 .Yaoqi{
@@ -156,6 +170,19 @@ h1{
     position:fixed;
     top:0;
     filter:brightness(0.6);
+    z-index: -1;
+    left:0;
+    right:0;
+}
+canvas{
+    /*background: #111111;*/
+    background-image: radial-gradient(circle,var(--purple) -400%, #111111 100%);
+    object-fit:cover;
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    top:0;
+    /*filter:brightness(0.7);*/
     z-index: -1;
     left:0;
     right:0;

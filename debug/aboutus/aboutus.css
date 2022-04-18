@@ -1,6 +1,6 @@
 :root{
-    --darkgrey: #343434;
-    --purple: mediumpurple;
+    --darkgrey: #201C24FF;
+    --purple: #6931F9FF;
     --containerSize: 945px;
 }
 .container{
@@ -18,9 +18,10 @@
     margin-top:-10px;
     margin-bottom:-10px;
 }
-body
-{
-    background: darkgray;
+h2{
+    text-align: left;
+    left: 0px;
+    margin: 0px;
 }
 .description{
     font-family: Arial;
@@ -36,7 +37,7 @@ body
     stroke:var(--purple);
     stroke-width: 8;
 }
-h1{
+#aboutus_title{
     color:white;
     margin-left:-550px;
     font-family: Arial;
@@ -91,6 +92,7 @@ h1{
     float: right;
     font-size: 28px;
     font-weight: bold;
+
 }
 
 .close:hover,
@@ -103,13 +105,13 @@ h1{
 .modal-header {
     font-family: Arial;
     padding: 2px 16px;
-    background-color: mediumpurple;
+    background-color: var(--purple);
     color: white;
 }
 
 .modal-body {
     padding: 2px 16px;
-    border-color: mediumpurple;
+    border-color: var(--purple);
     background: #343434;
 }
 
@@ -156,6 +158,19 @@ h1{
     position:fixed;
     top:0;
     filter:brightness(0.6);
+    z-index: -1;
+    left:0;
+    right:0;
+}
+canvas{
+    /*background: #111111;*/
+    background-image: radial-gradient(circle,var(--purple) -400%, #111111 100%);
+    object-fit:cover;
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    top:0;
+    /*filter:brightness(0.7);*/
     z-index: -1;
     left:0;
     right:0;

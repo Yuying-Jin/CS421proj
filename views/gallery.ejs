@@ -1,79 +1,88 @@
-<video class="bg-video" src="../../backgroundVideos/project_overview.webm" autoplay loop playsinline muted></video>
+<%- include('./commonViews/header.ejs'); %>
+
 <link type="text/css" href="../css/gallery.css" rel="stylesheet" />
 
+<canvas id="canvas"></canvas>
 <div class="galleryContainer">
-    <h1>Gallery</h1>
-    <svg id="titleLine"><line  x1="0" y1="0" x2="1000" y2="0"/></svg>
+    <h1 id="top">Gallery</h1>
+
+    <svg id="titleLine"><line  x1="0" y1="0" x2="900" y2="0"/></svg>
 
     <div class="galleryWrapper">
         <a class="gallery">
-            <img src="https://www.cameraegg.org/wp-content/uploads/2015/06/canon-powershot-g3-x-sample-images-1.jpg" alt=""/>
+            <img src="../images/galleryItems/as2_classic(white).PNG" alt=""/>
             <div class="layer">
-                <p>title</p>
+                <p>Audiosurf 2<br>Classic (White)</p>
             </div>
         </a>
         <a class="gallery">
-            <img src="https://asia.olympus-imaging.com/content/000107506.jpg" alt=""/>
+            <img src="../images/galleryItems/as2_starrider.PNG" alt=""/>
             <div class="layer">
-                <p>title</p>
+                <p>Audiosurf 2<br>Star Rider</p>
             </div>
         </a>
         <a class="gallery">
-            <img src="https://imgsv.imaging.nikon.com/lineup/lens/f-mount/zoom/normalzoom/af-s_dx_18-140mmf_35-56g_ed_vr/img/sample/sample1_l.jpg" alt=""/>
+            <img src="../images/galleryItems/bs_daijin.PNG" alt=""/>
             <div class="layer">
-                <p>This is a long title.</p>
+                <p>Beat Saber<br>Sore Ga Daijin</p>
             </div>
         </a>
         <a class="gallery">
-            <img src="" alt=""/>
+            <img src="../images/galleryItems/bs_eurodancer.PNG" alt=""/>
             <div class="layer">
-                <p>This title is much longer. </p>
+                <p>Beat Saber<br>Eurodancer</p>
             </div>
         </a>
 
         <a class="gallery">
-            <img src="" alt=""/>
+            <img src="../images/galleryItems/bs_hl.PNG" alt=""/>
             <div class="layer">
-                <p>title</p>
+                <p>Beat Saber<br>Half Life Theme</p>
             </div>
         </a>
         <a class="gallery">
-            <img src="" alt=""/>
+            <img src="../images/galleryItems/bs_hohoho.PNG" alt=""/>
             <div class="layer">
-                <p>title</p>
+                <p>Beat Saber<br>Ho Ho Ho</p>
             </div>
         </a>
         <a class="gallery">
-            <img src="" alt=""/>
+            <img src="../images/galleryItems/bs_spectre.PNG" alt=""/>
             <div class="layer">
-                <p>title</p>
+                <p>Beat Saber<br>Spectre</p>
             </div>
         </a>
         <a class="gallery">
-            <img src="" alt=""/>
+            <img src="../images/galleryItems/bs_spectre_old.PNG" alt=""/>
             <div class="layer">
-                <p>title</p>
+                <p>Beat Saber<br>Spectre (Old)</p>
             </div>
         </a>
         <a class="gallery">
-            <img src="" alt=""/>
+            <img src="../images/galleryItems/bs_kokoro.PNG" alt=""/>
             <div class="layer">
-                <p>title</p>
+                <p>Beat Saber<br>Kokoro</p>
             </div>
         </a>
         <a class="gallery">
-            <img src="" alt=""/>
+            <img src="../images/galleryItems/bs_summervibe.PNG" alt=""/>
             <div class="layer">
-                <p>title</p>
+                <p>Beat Saber<br>Summer Vibes</p>
             </div>
         </a>
-        <a class="gallery">
-            <img src="" alt=""/>
-            <div class="layer">
-                <p>title</p>
-            </div>
-        </a>
-
 
     </div>
 </div>
+<a href="#top">
+    <svg id="goTop">
+        <g transform="translate(30,15)" stroke-width="4" stroke="white" stroke-linecap="round">
+            <line x1="0" y1="30" x2="0" y2="0"/>
+            <line x1="0" x1="0" x2="-15" y2="15"/>
+            <line x1="0" x1="0" x2="15" y2="15"/>
+        </g>
+    </svg>
+</a>
+<%- include('./commonViews/footer.ejs'); %>
+
+<script src="../js/bg.js" type="text/javascript"></script>
+

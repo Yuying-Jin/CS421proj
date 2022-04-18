@@ -8,23 +8,29 @@ body{
     background-color:white;
 
 }
-p{
-    color:black;
-    font-family:arial, helvetica, sans-serif;
-    font-size:20px;
-}
 h1{
     color:white;
     margin-left: 0px;
-    margin-top: -10px;
+    padding-top: 0px;
     font-family: 'Arial Black';
     font-weight:lighter;
+    text-align: center;
     font-size: 70px;
+    line-height: 1.1;
     margin-bottom:10px;
-    height: 400px;
+    height: 200px;
+}
+.siteDescription {
+    color: white;
+    font-family: 'Arial';
+    font-size:20px;
+    text-align: center;
+    line-height: 1.4;
+    width: 750px;
+    height: 130px;
 }
 #titleLineTop{
-    background: #262626;
+    background: #171717;
     height:50px;
     width:calc(var(--containerSize));
     stroke:var(--purple);
@@ -86,15 +92,18 @@ h1{
 .layer p {
     color:white;
     margin:-100px;
+    font-family:arial, helvetica, sans-serif;
     font-size: 30px;
     transition: all 0.3s ease;
 }
+
 img{
     height:320px;
     filter: brightness(0.5);
     /*    filter: brightness(80%);*/
     transition: all 0.3s ease;
 }
+
 .gallery:hover {
     opacity: 1;
     transform: scale(1.05);
@@ -122,8 +131,29 @@ img{
     height:100vh;
     position:fixed;
     top:0;
-    filter:brightness(0.7);
+    filter: brightness(1);
     z-index: -1;
     left:0;
+    right:0;
+}
+
+#overlay-left {
+    object-fit: fill;
+    width:50vw;
+    height:100vh;
+    position:fixed;
+    top:0;
+    z-index: -1;
+    left:0;
+    right:0;
+}
+#overlay-right {
+    object-fit: fill;
+    width:50vw;
+    height:100vh;
+    position:fixed;
+    top:0;
+    z-index: -1;
+    left:998px;
     right:0;
 }

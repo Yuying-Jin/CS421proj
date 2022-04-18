@@ -1,0 +1,101 @@
+:root{
+    --darkgrey: #201c24;
+    --purple: #6931f9;
+    --containerSize: 950px;
+}
+a:hover{
+    color: rgb(255,255,255);
+}
+.jumbotron{
+    background-color: darkgray;
+    left: 350px;
+}
+.navbar-brand{
+    font-family: "Arial Black";
+}
+.navbar-brand:hover{
+    font-family: "Arial Black";
+    color: rgb(255,255,255);
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(23,23,23);
+    color: rgb(105,49,249);
+
+}
+.d-flex{
+    position: fixed;
+}
+
+.navbar-nav{
+    position: relative;
+    font-family: Arial;
+    left: 20%;
+    color: rgb(105,49,249);
+}
+.nav-item{
+    margin-left: 30px;
+}
+.nav-link{
+    font-weight: bold;
+    color: rgb(105,49,249);
+}
+.nav-link:hover{
+    font-weight: bold;
+    /*font-family: "Arial Black";*/
+    color: rgb(255,255,255);
+}
+.text-purple{
+    color: rgb(105,49,249);
+}
+
+.text-black{
+    color: black;
+}
+
+.shift-down{
+    down: 300px;
+}
+
+footer{
+    list-style-type: none;
+    text-align:center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    color: rgb(105,49,249);
+    background-color: 	rgb(23,23,23);
+
+}
+.siteTitle_footer{
+    font-family: "Arial Black";
+}
+.footerDescription{
+    font-size: 18px;
+    color: rgb(105,49,249);
+}
+.copyright{
+    background: rgb(105,49,249);
+    color: white;
+    height: 50px;
+}
+.copyright p{
+    font-size: 16px;
+    padding-top: 15px;
+    color: white;
+}
+.errorcustom{
+    position:relative;
+    left: 350px
+}
+
+.bg-black{
+    background: rgb(23,23,23);
+}
