@@ -1,4 +1,6 @@
-<link type="text/css" href="gallery.css" rel="stylesheet" />
+<%- include('./commonViews/header.ejs'); %>
+
+<link type="text/css" href="../css/gallery.css" rel="stylesheet" />
 <a href="#top">
     <svg id="goTop">
         <g transform="translate(30,15)" stroke-width="4" stroke="white" stroke-linecap="round">
@@ -7,11 +9,12 @@
             <line x1="0" x1="0" x2="15" y2="15"/>
         </g>
     </svg>
-</a>>
+</a>
 <canvas id="canvas"></canvas>
 <div class="galleryContainer">
     <h1 id="top">Gallery</h1>
-    <svg id="titleLine"><line  x1="0" y1="0" x2="1000" y2="0"/></svg>
+
+    <svg id="titleLine"><line  x1="0" y1="0" x2="900" y2="0"/></svg>
 
     <div class="galleryWrapper">
         <a class="gallery">
@@ -120,4 +123,7 @@
     </div>
 </div>
 
-<script src="../js/bg.js" type="text/javascript"/>
+<%- include('./commonViews/footer.ejs'); %>
+
+<script src="../js/bg.js" type="text/javascript"></script>
+

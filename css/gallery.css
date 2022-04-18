@@ -29,7 +29,6 @@ h1{
     stroke:var(--purple);
     stroke-width: 8;
 }
-
 .galleryContainer{
     height: auto;
     width:var(--containerSize);

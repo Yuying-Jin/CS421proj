@@ -18,6 +18,11 @@
     margin-top:-10px;
     margin-bottom:-10px;
 }
+h2{
+    text-align: left;
+    left: 0px;
+    margin: 0px;
+}
 .description{
     font-family: Arial;
     color:white;
@@ -32,7 +37,7 @@
     stroke:var(--purple);
     stroke-width: 8;
 }
-h1{
+#aboutus_title{
     color:white;
     margin-left:-550px;
     font-family: Arial;
@@ -87,6 +92,7 @@ h1{
     float: right;
     font-size: 28px;
     font-weight: bold;
+
 }
 
 .close:hover,

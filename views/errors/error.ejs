@@ -1,0 +1,21 @@
+<%- include('../commonViews/header.ejs'); %>
+
+<link type="text/css" href="../../css/errors/error.css" rel="stylesheet" />
+<canvas id="canvas"></canvas>
+<div id="container">
+    <h1 id="errorCode">Error: <%= errorCode%></h1>
+
+    <div id="errorMessage_general">
+        <%= errorMsg_general%>
+    </div>
+
+    <div id="errorMessage_specific">
+        <%= errorMsg_specific%>
+    </div>
+</div>
+
+
+<%- include('../commonViews/footer.ejs'); %>
+
+<script src="../../js/bg.js" type="text/javascript"></script>
+
