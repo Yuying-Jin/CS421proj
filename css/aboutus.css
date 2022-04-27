@@ -25,7 +25,7 @@
     position: relative;
     top: 25px;
     width:calc(-50px + var(--containerSize));
-    min-height:600px;
+    min-height:300px;
 }
 #titleLine{
     height:15px;
@@ -186,4 +186,9 @@ canvas{
     z-index: -1;
     left:0;
     right:0;
+}
+
+.Center{
+    margin-left: 100px;
+    margin-right: 100px;
 }
