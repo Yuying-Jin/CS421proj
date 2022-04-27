@@ -36,6 +36,13 @@ app.get("/aboutus",function(req, res) {
     res.render("aboutUs",{Title: `About Us | ${siteTitle}`});
 });
 
+    //Project page
+app.get("/project",function(req, res) {
+    console.log(`Respond status code: ${res.statusCode}`);
+    console.log(`Current webpage: Project page`);
+    res.render("entry",{Title: `Project | ${siteTitle}`});
+});
+
 //Re-directions
     //Homepage redirect 1
 app.get("/home",function(req, res) {
