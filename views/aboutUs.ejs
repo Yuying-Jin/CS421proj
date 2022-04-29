@@ -1,6 +1,7 @@
 <%- include('./commonViews/header.ejs'); %>
 
 <link type="text/css" href="../css/aboutus.css" rel="stylesheet" />
+<link type="text/css" href="../css/gallery.css" rel="stylesheet" />
 <video class="bg-video" src="../../backgroundVideos/project_overview.webm" autoplay loop playsinline muted></video>
 
 <canvas id="canvas"></canvas>
@@ -103,6 +104,16 @@
         </div>
     </div>
 </div>
+
+<a href="#top">
+    <svg id="goTop">
+        <g transform="translate(30,15)" stroke-width="4" stroke="white" stroke-linecap="round">
+            <line x1="0" y1="30" x2="0" y2="0"/>
+            <line x1="0" x1="0" x2="-15" y2="15"/>
+            <line x1="0" x1="0" x2="15" y2="15"/>
+        </g>
+    </svg>
+</a>
 
 <%- include('./commonViews/footer.ejs'); %>
 
