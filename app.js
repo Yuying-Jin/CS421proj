@@ -37,11 +37,21 @@ app.get("/aboutus",function(req, res) {
 });
 
     //Project page
-app.get("/project",function(req, res) {
+app.get("/project", function (req,res){
     console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page`);
-    res.render("entry",{Title: `Project | ${siteTitle}`});
+    console.log(`Current webpage: Project page for skin1`);
+
+
+    res.render("entry",{Title: `Project | ${siteTitle}`,
+        itemName: 'Classic White Audiosurf 2',
+        type: 'Skin',
+        img: ' ',
+        desc:' '
+    });
 });
+
+
+
 
 //Re-directions
     //Homepage redirect 1
