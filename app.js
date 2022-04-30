@@ -70,21 +70,6 @@ app.get("/index",function(req, res) {
 app.get("/about",function(req, res) {
     res.redirect('/aboutus');
 });
-app.get("/about",function(req, res) {
-    res.redirect('/aboutUs');
-});
-app.get("/about",function(req, res) {
-    res.redirect('/ABOUTUS');
-});
-app.get("/about",function(req, res) {
-    res.redirect('/AboutUs');
-});
-app.get("/gallery",function(req, res) {
-    res.redirect('/Gallery');
-});
-app.get("/gallery",function(req, res) {
-    res.redirect('/GALLERY');
-});
 
 //Error page
     //Error 404

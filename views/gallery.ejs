@@ -83,20 +83,14 @@
     </svg>
 </a>
 
-<p id="demo"/>
-
 <%- include('./commonViews/footer.ejs'); %>
 
 <script src="../js/bg.js" type="text/javascript"></script>
 
 <script>
-    function changeId(id){
-        var url = location.href;
-        url = "/project";
+    function jumpLink(id){
+        var url = "/project?" + id;
+        console.log("id is " + id);
         location.replace(url);
-        let element = document.getElementById("demo");
-        element.id = id;
-        document.getElementById("demo").innerHTML = element.id;
-
     }
 </script>
