@@ -1,1 +1,1 @@
-Source code of the porject. All changes goes to this branch.
+Source code of the project. All changes goes to this branch.
