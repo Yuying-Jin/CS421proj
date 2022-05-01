@@ -37,123 +37,30 @@ app.get("/aboutus",function(req, res) {
 });
 
     //Project page
-app.get("/project?Classic-White-Audiosurf-2", function (req,res){
+app.get("/project", function (req,res){
     console.log(`Respond status code: ${res.statusCode}`);
     console.log(`Current webpage: Project page for class white audiosurf 2`);
 
-    res.render("entry",{Title: `Project | ${siteTitle}`,
-        itemName: 'Classic White Audiosurf 2',
-        type: 'Skin',
-        img: ' ',
-        desc:'This is the description for Classic White Audiosurf 2.'
-    });
-});
-
-app.get("/project?Star-Rider-Audiosurf-2", function (req,res){
-    console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for srat rider audiosurf 2`);
-
-    res.render("entry",{Title: `Project | ${siteTitle}`,
-        itemName: 'Star Rider Audiosurf 2',
-        type: 'Skin',
-        img: ' ',
-        desc:' '
-    });
-});
-
-app.get("/project?Sore-Ga-Daijin-Beat-Saber", function (req,res){
-    console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for sore ga daijin beat saber`);
+    var ProjID = req.query.id;
+    switch (ProjID) {
+        case 'Classic-White-Audiosurf-2':
+            var itemName = 'Classic (White) (Audiosurf 2)';
+            var type = 'Skin';
+            var desc = 'This is the description for Classic White Audiosurf 2.';
+            break;
+        case 'Star-Rider-Audiosurf-2':
+            var itemName = 'Star Rider (Audiosurf 2)';
+            var type = 'Skin';
+            var desc = 'This is the description for Classic White Audiosurf 2.';
+            break;
+        default:
+            break;
+    }
 
     res.render("entry",{Title: `Project | ${siteTitle}`,
-        itemName: 'Sore Ga Daijin Beat Saber',
-        type: 'Level',
-        img: ' ',
-        desc:' '
-    });
-});
-
-app.get("/project?Eurodancer-Beat-Saber", function (req,res){
-    console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for eurodancer beat saber`);
-
-    res.render("entry",{Title: `Project | ${siteTitle}`,
-        itemName: 'Eurodancer Beat Saber',
-        type: 'Level',
-        img: ' ',
-        desc:' '
-    });
-});
-
-app.get("/project?Half-Life-Theme-Beat-Saber", function (req,res){
-    console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for half life theme beat saber`);
-
-    res.render("entry",{Title: `Project | ${siteTitle}`,
-        itemName: 'Half Life Theme Beat Saber',
-        type: 'Level',
-        img: ' ',
-        desc:' '
-    });
-});
-
-app.get("/project?Ho-Ho-Ho-Beat-Saber", function (req,res){
-    console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for ho ho ho beat saber`);
-
-    res.render("entry",{Title: `Project | ${siteTitle}`,
-        itemName: 'Ho Ho Ho Beat Saber',
-        type: 'Level',
-        img: ' ',
-        desc:' '
-    });
-});
-
-app.get("/project?Spectre-Beat-Saber", function (req,res){
-    console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for spectre beat saber`);
-
-    res.render("entry",{Title: `Project | ${siteTitle}`,
-        itemName: 'Spectre Beat Saber',
-        type: 'Level',
-        img: ' ',
-        desc:' '
-    });
-});
-
-app.get("/project?Spectre-(Old)-Beat-Saber", function (req,res){
-    console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for spectre (old) beat saber`);
-
-    res.render("entry",{Title: `Project | ${siteTitle}`,
-        itemName: 'Spectre (Old) Beat Saber',
-        type: 'Level',
-        img: ' ',
-        desc:' '
-    });
-});
-
-app.get("/project?Kokoro-Beat-Saber", function (req,res){
-    console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for kokoro beat saber`);
-
-    res.render("entry",{Title: `Project | ${siteTitle}`,
-        itemName: 'Kokoro Beat Saber',
-        type: 'Level',
-        img: ' ',
-        desc:' '
-    });
-});
-
-app.get("/project?Summer-Vibes-Beat-Saber", function (req,res){
-    console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for summer vibes beat saber`);
-
-    res.render("entry",{Title: `Project | ${siteTitle}`,
-        itemName: 'Summer Vibes Beat Saber',
-        type: 'Level',
-        img: ' ',
-        desc:' '
+        itemName: itemName,
+        type: type,
+        desc: desc
     });
 });
 

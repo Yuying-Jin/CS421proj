@@ -9,67 +9,8 @@
     <svg id="titleLine"><line  x1="0" y1="0" x2="900" y2="0"/></svg>
 
     <div class="galleryWrapper">
-        <a href="/project?Classic-White-Audiosurf-2" class="gallery" id="Classic-White-Audiosurf-2" onclick="jumpLink(this.id)">
-            <img src="../images/galleryItems/as2_classic(white).PNG" alt=""/>
-            <div class="layer">
-                <p>(Skin) Classic White<br>Audiosurf 2</p>
-            </div>
-        </a>
-        <a herf="/project" class="gallery" id="Star-Rider-Audiosurf-2" onclick="jumpLink(this.id)">
-            <img src="../images/galleryItems/as2_starrider.PNG" alt=""/>
-            <div class="layer">
-                <p>(Skin) Star Rider<br>Audiosurf 2</p>
-            </div>
-        </a>
-        <a herf="/project" class="gallery" id="Sore-Ga-Daijin-Beat-Saber" onclick="jumpLink(this.id)">
-            <img src="../images/galleryItems/bs_daijin.PNG" alt=""/>
-            <div class="layer">
-                <p>(Level) Sore Ga Daijin<br>Beat Saber</p>
-            </div>
-        </a>
-        <a herf="/project" class="gallery" id="Eurodancer-Beat-Saber" onclick="jumpLink(this.id)">
-            <img src="../images/galleryItems/bs_eurodancer.PNG" alt=""/>
-            <div class="layer">
-                <p>(Level) Eurodancer<br>Beat Saber</p>
-            </div>
-        </a>
 
-        <a herf="/project" class="gallery" id="Half-Life-Theme-Beat-Saber" onclick="jumpLink(this.id)">
-            <img src="../images/galleryItems/bs_hl.PNG" alt=""/>
-            <div class="layer">
-                <p>(Level) Half Life Theme<br>Beat Saber</p>
-            </div>
-        </a>
-        <a herf="/project" class="gallery" id="Ho-Ho-Ho-Beat-Saber" onclick="jumpLink(this.id)">
-            <img src="../images/galleryItems/bs_hohoho.PNG" alt=""/>
-            <div class="layer">
-                <p>(Level) Ho Ho Ho<br>Beat Saber</p>
-            </div>
-        </a>
-        <a herf="/project" class="gallery" id="Spectre-Beat-Saber" onclick="jumpLink(this.id)">
-            <img src="../images/galleryItems/bs_spectre.PNG" alt=""/>
-            <div class="layer">
-                <p>(Level) Spectre<br>Beat Saber</p>
-            </div>
-        </a>
-        <a herf="/project" class="gallery" id="Spectre-(Old)-Beat-Saber" onclick="jumpLink(this.id)">
-            <img src="../images/galleryItems/bs_spectre_old.PNG" alt=""/>
-            <div class="layer">
-                <p>(Level) Spectre (Old)<br>Beat Saber</p>
-            </div>
-        </a>
-        <a herf="/project" class="gallery" id="Kokoro-Beat-Saber" onclick="jumpLink(this.id)">
-            <img src="../images/galleryItems/bs_kokoro.PNG" alt=""/>
-            <div class="layer">
-                <p>(Level) Kokoro<br>Beat Saber</p>
-            </div>
-        </a>
-        <a herf="/project" class="gallery" id="Summer-Vibes-Beat-Saber" onclick="jumpLink(this.id)">
-            <img src="../images/galleryItems/bs_summervibe.PNG" alt=""/>
-            <div class="layer">
-                <p>(Level) Summer Vibes<br>Beat Saber</p>
-            </div>
-        </a>
+        <%- include('./galleryItems/items.ejs'); %>
 
     </div>
 </div>
@@ -89,8 +30,8 @@
 
 <script>
     function jumpLink(id){
-        var url = "/project?" + id;
-        console.log("id is " + id);
+        var url = "/project?id=" + id;
+        console.log(url);
         location.replace(url);
     }
 </script>

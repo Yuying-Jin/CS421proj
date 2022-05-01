@@ -1,17 +1,25 @@
 <%- include('./commonViews/header.ejs'); %>
 
-<link type="text/css" href="../css/gallery.css" rel="stylesheet" />
+<link type="text/css" href="../css/entry.css" rel="stylesheet" />
 
 
 <canvas id="canvas"></canvas>
-<div class="galleryContainer">
-    <h1 id="top">itemName</h1>
+<div class="wikiContainer">
+    <h1 id="top"><%= itemName %></h1>
 
     <svg id="titleLine"><line  x1="0" y1="0" x2="900" y2="0"/></svg>
 
-    <div class="galleryWrapper">
+    <div class="wikiWrapper">
 
-        <p>test information</p>
+        <div class="itemType">
+            <p>Type: <%= type %></p>
+            <br>
+        </div>
+
+        <div class="itemEntry">
+            <p> <%= desc %></p>
+        </div>
+
 
     </div>
 
