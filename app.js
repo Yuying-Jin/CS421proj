@@ -39,21 +39,19 @@ app.get("/aboutus",function(req, res) {
     //Project page
 app.get("/project?Classic-White-Audiosurf-2", function (req,res){
     console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for skin1`);
-
+    console.log(`Current webpage: Project page for class white audiosurf 2`);
 
     res.render("entry",{Title: `Project | ${siteTitle}`,
         itemName: 'Classic White Audiosurf 2',
         type: 'Skin',
         img: ' ',
-        desc:' '
+        desc:'This is the description for Classic White Audiosurf 2.'
     });
 });
 
 app.get("/project?Star-Rider-Audiosurf-2", function (req,res){
     console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for skin1`);
-
+    console.log(`Current webpage: Project page for srat rider audiosurf 2`);
 
     res.render("entry",{Title: `Project | ${siteTitle}`,
         itemName: 'Star Rider Audiosurf 2',
@@ -65,8 +63,7 @@ app.get("/project?Star-Rider-Audiosurf-2", function (req,res){
 
 app.get("/project?Sore-Ga-Daijin-Beat-Saber", function (req,res){
     console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for skin1`);
-
+    console.log(`Current webpage: Project page for sore ga daijin beat saber`);
 
     res.render("entry",{Title: `Project | ${siteTitle}`,
         itemName: 'Sore Ga Daijin Beat Saber',
@@ -78,8 +75,7 @@ app.get("/project?Sore-Ga-Daijin-Beat-Saber", function (req,res){
 
 app.get("/project?Eurodancer-Beat-Saber", function (req,res){
     console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for skin1`);
-
+    console.log(`Current webpage: Project page for eurodancer beat saber`);
 
     res.render("entry",{Title: `Project | ${siteTitle}`,
         itemName: 'Eurodancer Beat Saber',
@@ -91,8 +87,7 @@ app.get("/project?Eurodancer-Beat-Saber", function (req,res){
 
 app.get("/project?Half-Life-Theme-Beat-Saber", function (req,res){
     console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for skin1`);
-
+    console.log(`Current webpage: Project page for half life theme beat saber`);
 
     res.render("entry",{Title: `Project | ${siteTitle}`,
         itemName: 'Half Life Theme Beat Saber',
@@ -104,8 +99,7 @@ app.get("/project?Half-Life-Theme-Beat-Saber", function (req,res){
 
 app.get("/project?Ho-Ho-Ho-Beat-Saber", function (req,res){
     console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for skin1`);
-
+    console.log(`Current webpage: Project page for ho ho ho beat saber`);
 
     res.render("entry",{Title: `Project | ${siteTitle}`,
         itemName: 'Ho Ho Ho Beat Saber',
@@ -117,8 +111,7 @@ app.get("/project?Ho-Ho-Ho-Beat-Saber", function (req,res){
 
 app.get("/project?Spectre-Beat-Saber", function (req,res){
     console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for skin1`);
-
+    console.log(`Current webpage: Project page for spectre beat saber`);
 
     res.render("entry",{Title: `Project | ${siteTitle}`,
         itemName: 'Spectre Beat Saber',
@@ -130,8 +123,7 @@ app.get("/project?Spectre-Beat-Saber", function (req,res){
 
 app.get("/project?Spectre-(Old)-Beat-Saber", function (req,res){
     console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for skin1`);
-
+    console.log(`Current webpage: Project page for spectre (old) beat saber`);
 
     res.render("entry",{Title: `Project | ${siteTitle}`,
         itemName: 'Spectre (Old) Beat Saber',
@@ -143,8 +135,7 @@ app.get("/project?Spectre-(Old)-Beat-Saber", function (req,res){
 
 app.get("/project?Kokoro-Beat-Saber", function (req,res){
     console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for skin1`);
-
+    console.log(`Current webpage: Project page for kokoro beat saber`);
 
     res.render("entry",{Title: `Project | ${siteTitle}`,
         itemName: 'Kokoro Beat Saber',
@@ -156,8 +147,7 @@ app.get("/project?Kokoro-Beat-Saber", function (req,res){
 
 app.get("/project?Summer-Vibes-Beat-Saber", function (req,res){
     console.log(`Respond status code: ${res.statusCode}`);
-    console.log(`Current webpage: Project page for skin1`);
-
+    console.log(`Current webpage: Project page for summer vibes beat saber`);
 
     res.render("entry",{Title: `Project | ${siteTitle}`,
         itemName: 'Summer Vibes Beat Saber',
@@ -166,9 +156,6 @@ app.get("/project?Summer-Vibes-Beat-Saber", function (req,res){
         desc:' '
     });
 });
-
-
-
 
 //Re directions
     //Homepage redirect 1
