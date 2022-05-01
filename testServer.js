@@ -15,7 +15,6 @@ const server = http.createServer((req, res) => {
     // Sending the response
     res.write("Respond from server.")
     res.end();
-
 })
 
 // Server listening to port 3000
