@@ -15,9 +15,9 @@ p{
     font-family:arial, helvetica, sans-serif;
     font-size:16px;
 }
-h1{
+#top{
     color:white;
-    margin-left:-550px;
+    text-align: left;
     font-family: Arial;
     font-weight:lighter;
     font-size: 30px;
