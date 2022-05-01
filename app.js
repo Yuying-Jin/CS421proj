@@ -37,7 +37,7 @@ app.get("/aboutus",function(req, res) {
 });
 
     //Project page
-app.get("/project", function (req,res){
+app.get("/project?Classic-White-Audiosurf-2", function (req,res){
     console.log(`Respond status code: ${res.statusCode}`);
     console.log(`Current webpage: Project page for skin1`);
 
@@ -50,10 +50,127 @@ app.get("/project", function (req,res){
     });
 });
 
+app.get("/project?Star-Rider-Audiosurf-2", function (req,res){
+    console.log(`Respond status code: ${res.statusCode}`);
+    console.log(`Current webpage: Project page for skin1`);
+
+
+    res.render("entry",{Title: `Project | ${siteTitle}`,
+        itemName: 'Star Rider Audiosurf 2',
+        type: 'Skin',
+        img: ' ',
+        desc:' '
+    });
+});
+
+app.get("/project?Sore-Ga-Daijin-Beat-Saber", function (req,res){
+    console.log(`Respond status code: ${res.statusCode}`);
+    console.log(`Current webpage: Project page for skin1`);
+
+
+    res.render("entry",{Title: `Project | ${siteTitle}`,
+        itemName: 'Sore Ga Daijin Beat Saber',
+        type: 'Level',
+        img: ' ',
+        desc:' '
+    });
+});
+
+app.get("/project?Eurodancer-Beat-Saber", function (req,res){
+    console.log(`Respond status code: ${res.statusCode}`);
+    console.log(`Current webpage: Project page for skin1`);
+
+
+    res.render("entry",{Title: `Project | ${siteTitle}`,
+        itemName: 'Eurodancer Beat Saber',
+        type: 'Level',
+        img: ' ',
+        desc:' '
+    });
+});
+
+app.get("/project?Half-Life-Theme-Beat-Saber", function (req,res){
+    console.log(`Respond status code: ${res.statusCode}`);
+    console.log(`Current webpage: Project page for skin1`);
+
+
+    res.render("entry",{Title: `Project | ${siteTitle}`,
+        itemName: 'Half Life Theme Beat Saber',
+        type: 'Level',
+        img: ' ',
+        desc:' '
+    });
+});
+
+app.get("/project?Ho-Ho-Ho-Beat-Saber", function (req,res){
+    console.log(`Respond status code: ${res.statusCode}`);
+    console.log(`Current webpage: Project page for skin1`);
+
+
+    res.render("entry",{Title: `Project | ${siteTitle}`,
+        itemName: 'Ho Ho Ho Beat Saber',
+        type: 'Level',
+        img: ' ',
+        desc:' '
+    });
+});
+
+app.get("/project?Spectre-Beat-Saber", function (req,res){
+    console.log(`Respond status code: ${res.statusCode}`);
+    console.log(`Current webpage: Project page for skin1`);
+
+
+    res.render("entry",{Title: `Project | ${siteTitle}`,
+        itemName: 'Spectre Beat Saber',
+        type: 'Level',
+        img: ' ',
+        desc:' '
+    });
+});
+
+app.get("/project?Spectre-(Old)-Beat-Saber", function (req,res){
+    console.log(`Respond status code: ${res.statusCode}`);
+    console.log(`Current webpage: Project page for skin1`);
+
+
+    res.render("entry",{Title: `Project | ${siteTitle}`,
+        itemName: 'Spectre (Old) Beat Saber',
+        type: 'Level',
+        img: ' ',
+        desc:' '
+    });
+});
+
+app.get("/project?Kokoro-Beat-Saber", function (req,res){
+    console.log(`Respond status code: ${res.statusCode}`);
+    console.log(`Current webpage: Project page for skin1`);
+
+
+    res.render("entry",{Title: `Project | ${siteTitle}`,
+        itemName: 'Kokoro Beat Saber',
+        type: 'Level',
+        img: ' ',
+        desc:' '
+    });
+});
+
+app.get("/project?Summer-Vibes-Beat-Saber", function (req,res){
+    console.log(`Respond status code: ${res.statusCode}`);
+    console.log(`Current webpage: Project page for skin1`);
+
+
+    res.render("entry",{Title: `Project | ${siteTitle}`,
+        itemName: 'Summer Vibes Beat Saber',
+        type: 'Level',
+        img: ' ',
+        desc:' '
+    });
+});
 
 
 
-//Re-directions
+
+//Re directions
     //Homepage redirect 1
 app.get("/home",function(req, res) {
     res.redirect('/');
