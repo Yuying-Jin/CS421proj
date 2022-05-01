@@ -1,0 +1,81 @@
+:root{
+    --darkgrey: #201c24;
+    --purple: #6931f9;
+    --containerSize: 950px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color:white;
+
+}
+p{
+    color:white;
+    font-family:arial, helvetica, sans-serif;
+    font-size:16px;
+}
+h1{
+    color:white;
+    margin-left:-550px;
+    font-family: Arial;
+    font-weight:lighter;
+    font-size: 30px;
+    margin-bottom:10px;
+}
+#titleLine{
+    height:15px;
+    width:calc(-50px + var(--containerSize));
+    stroke:var(--purple);
+    stroke-width: 8;
+}
+.wikiContainer{
+    height: auto;
+    width:var(--containerSize);
+    margin:auto;
+    top:-10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--darkgrey);
+    overflow: hidden;
+    padding-top:30px;
+    padding-bottom:50px;
+    margin-top:-10px;
+    margin-bottom:-10px;
+}
+
+.wikiWrapper{
+    width:700px;
+    flex-wrap:wrap;
+    justify-content: left;
+}
+
+canvas{
+    background-image: radial-gradient(circle,var(--purple) -400%, #111111 100%);
+    object-fit:cover;
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    top:0;
+    z-index: -1;
+    left:0;
+    right:0;
+}
+#goTop{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    font-size: 18px;
+    background-color: #343434;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    opacity: 0.7;
+}
+
+#goTop:hover{
+    opacity:1;
+}
