@@ -1,8 +1,0 @@
-Any .ejs files goes to "views" folder
-
-Any accommodating CSS files goes to "css" folder
-
-Any accommodating JavaScript files goes to "js" folder
-
-Commonly used ejs such as Header, Footer, Sidebar goes to the folder views/commonUse.
-Accommodating css and js files for commonly used elements – such as header.css, footer.js etc – goes to css/commonUse and js/commonUse.
