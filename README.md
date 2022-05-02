@@ -24,24 +24,29 @@ Uses EJS(html) and CSS files to determine the appearance and placement of text, 
 ## Back end
 Uses Node.js to run basic server. Uses Express to receive page requests then render associating EJS(html) and accommodating CSS files into web pages.
 
-## Features
-* Navigation hyperlinks in sidebar, header, and footer  
-Adding hyperlinks to sidebar, header, and footer to allow users to jump to other pages conveniently. 
+## Web App Behavior
+* **Navigation hyperlinks in sidebar, header, and footer** \
+Hyperlinks to sidebar, header, and footer. Allow users to jump to other pages conveniently.
 
-* Stylized interactive text and images  
-If users hover on a hyperlink or clickable text, the text color will change. If users hover on a clickable image, the image will perform a zoom animation. 
 
-* Gallery page & stylized content listing  
-All projects will be listed in grid fashion and classified based on their associated game. Each project will have a square thumbnail with its title at the center. Users will be able to click on a thumbnail then directed to the project’s page.
+* **Stylized interactive text and images** \
+If users hover on a hyperlink or clickable text, the text color changes. If users hover on a clickable image, the image performs a zoom animation.
 
-* Appropriate background video for each page  
-The background of all pages of the site will be animated with a video. For the homepage, About Us, Gallery, and error page, the background video will show clips of various projects in action. For each project’s page, the background video will show only clips associated with that project. 
 
-* All pages load properly and accessible  
-All pages will be accessible by the user and load properly with no visual glitch nor errors.
+* **Gallery page & stylized content listing** \
+All projects are listed in grid fashion and classified based on their associated game. Each project includes a thumbnail and title. Users will be able to click on a thumbnail and be directed to the project’s page.
 
-* Proper error handling  
-Properly handle error code and display it to the users (such as 404 for nonexistent pages). 
+
+* **Background video for each page** \
+The background of all pages of the site is animated with either video or custom made animation.
+
+
+* **Proper error handling** \
+Redirect to error page to the users when accessing non-endpoint or unauthorized endpoints. (such as 404 for nonexistent pages). 
+
+* **Redirect on mistyped path** \
+Redirect users to correct path if potential incorrect path is entered. (Ex. ‘/about’ and ‘/us’ for About Us;‘ /home’, ‘/index’ and ‘/main’ for homepage)
+
 
 ## Endpoints
 * Home  
