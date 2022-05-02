@@ -132,7 +132,7 @@ h1{
     color:white;
     width:calc(-50px + var(--containerSize));
     position: relative;
-    top: 250px;
+    top: 244px;
     font-size: 18px;
 }
 .Jiayuan{
@@ -149,7 +149,7 @@ h1{
     color:white;
     width:calc(-50px + var(--containerSize));
     position: relative;
-    top: 92px;
+    top: 97px;
     left: 360px;
     font-size: 18px;
 }
@@ -158,7 +158,7 @@ h1{
     color:white;
     width:calc(-50px + var(--containerSize));
     position: relative;
-    top: 14px;
+    top: 24px;
     left: 540px;
     font-size: 18px;
 }
