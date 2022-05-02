@@ -1,4 +1,4 @@
-:root{
+:root{  /*Contributor: Yuying Jin */
     --darkgrey: #201c24;
     --purple: #6931f9;
     --containerSize: 950px;
@@ -29,7 +29,7 @@ p{
     stroke:var(--purple);
     stroke-width: 8;
 }
-.wikiContainer{
+.wikiContainer{ /*Contributor: Jiayuan Wen */
     height: auto;
     width:var(--containerSize);
     margin:auto;
@@ -45,13 +45,13 @@ p{
     margin-bottom:-10px;
 }
 
-.wikiWrapper{
+.wikiWrapper{   /*Contributor: Jiayuan Wen */
     width:700px;
     flex-wrap:wrap;
     justify-content: left;
 }
 
-canvas{
+canvas{ /*Contributor: Jiayuan Wen */
     background-image: radial-gradient(circle,var(--purple) -400%, #111111 100%);
     object-fit:cover;
     width:100vw;

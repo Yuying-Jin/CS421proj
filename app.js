@@ -1,42 +1,44 @@
-//Import modules
+
+
+//Import modules //Contributor: Jiayuan Wen
 const express = require("express")
 var path = require('path');
 
-//Set up Express
+//Set up Express //Contributor: Jiayuan Wen
 const app = express()
 
-//Get port
+//Get port //Contributor: Jiayuan Wen
 const port = 3000;
 
-//General path
+//General path //Contributor: Jiayuan Wen
 app.use(express.static(__dirname + '/'));
 
-//View engine and path
+//View engine and path //Contributor: Jiayuan Wen
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 //Pages
-var siteTitle = "Weldon's Projects";
-    //Homepage
+var siteTitle = "Weldon's Projects"; //Contributor: Jiayuan Wen
+    //Homepage //Contributor: Jiayuan Wen
 app.get("/",function(req, res) {
     console.log(`Respond status code: ${res.statusCode}`);
     console.log(`Current webpage: Home`);
     res.render("homepage",{Title: `Home | ${siteTitle}`});
 });
-    //Gallery
+    //Gallery //Contributor: Jiayuan Wen
 app.get("/gallery",function(req, res) {
     console.log(`Respond status code: ${res.statusCode}`);
     console.log(`Current webpage: Gallery`);
     res.render("gallery",{Title: `Gallery | ${siteTitle}`});
 });
-    //About Us
+    //About Us //Contributor: Jiayuan Wen
 app.get("/aboutus",function(req, res) {
     console.log(`Respond status code: ${res.statusCode}`);
     console.log(`Current webpage: About Us`);
     res.render("aboutUs",{Title: `About Us | ${siteTitle}`});
 });
 
-    //Project page
+    //Project page //Contributor: Jiayuan Wen
 app.get("/project", function (req,res){
     console.log(`Respond status code: ${res.statusCode}`);
 
@@ -107,7 +109,7 @@ app.get("/project", function (req,res){
     });
 });
 
-//Re directions
+//Re directions //Contributor: Jiayuan Wen
     //Homepage redirect 1
 app.get("/home",function(req, res) {
     res.redirect('/');
@@ -137,7 +139,7 @@ app.get("/projectlist",function(req, res) {
     res.redirect('/gallery');
 });
 
-//Error page
+//Error page //Contributor: Jiayuan Wen
     //Error 404
 ///*
 app.use(function (request, response, next) {
@@ -156,7 +158,7 @@ app.use(function (request, response, next) {
 //*/
 
 
-//Get URL on app startup
+//Get URL on app startup //Contributor: Jiayuan Wen
 app.listen((port), () => {
     console.log(`Server running on URL: http://localhost:${port}`);
 })

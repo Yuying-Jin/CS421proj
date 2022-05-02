@@ -1,11 +1,13 @@
-// Importing http module
+
+
+// Importing http module //Contributor: Jiayuan Wen
 const http = require("http")
 
-// Determine port and host
+// Determine port and host //Contributor: Jiayuan Wen
 const hostname = '127.0.0.1'
 const port = 3000;
 
-// Creating server
+// Creating server //Contributor: Jiayuan Wen
 const server = http.createServer((req, res) => {
 
     // Get data from client
@@ -18,7 +20,7 @@ const server = http.createServer((req, res) => {
 
 })
 
-// Check if server is listening to port
+// Check if server is listening to port //Contributor: Jiayuan Wen
 server.listen(port,hostname,()=> {
     console.log("Server running");
 })
