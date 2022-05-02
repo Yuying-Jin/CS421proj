@@ -41,6 +41,7 @@ a:hover{
     color: rgb(105,49,249);
 }
 .nav-item{
+    font-size: 18px;
     margin-left: 0px;
 }
 .nav-link{
