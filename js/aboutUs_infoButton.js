@@ -1,3 +1,5 @@
+//Contributor: Yaoqi Dong
+
 // Get the button that opens the modal
 var btn = document.querySelectorAll("button.modal-button");
 

@@ -39,7 +39,7 @@ app.get("/aboutus",function(req, res) {
     res.render("aboutUs",{Title: `About Us | ${siteTitle}`});
 });
 
-    //Project page //Contributor: Jiayuan Wen
+    //Project page //Contributor: Yuying Jin, Jiayuan Wen
 app.get("/project", function (req,res){
     console.log(`Respond status code: ${res.statusCode}`);
 
@@ -114,7 +114,7 @@ app.get("/project", function (req,res){
     });
 });
 
-//Re directions //Contributor: Jiayuan Wen
+//Re directions //Contributor: Jiayuan Wen, Yaoqi Dong
     //Homepage redirect 1
 app.get("/home",function(req, res) {
     res.redirect('/');

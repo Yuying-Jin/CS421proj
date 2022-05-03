@@ -80,7 +80,7 @@ body{   /*Contributor: Jiayuan Wen */
     transition: all 0.3s ease;
 }
 
-.layer {    /*Contributor: Jiayuan Wen */
+.layer {    /*Contributor: Jiayuan Wen, Yuying Jin */
     position: absolute;
     display: flex;
     justify-content: center;
@@ -89,7 +89,7 @@ body{   /*Contributor: Jiayuan Wen */
     width:10%;
     transition: all 0.3s ease;
 }
-.layer p {  /*Contributor: Jiayuan Wen */
+.layer p {  /*Contributor: Jiayuan Wen, Yuying Jin */
     color:white;
     margin:-100px;
     font-family:arial, helvetica, sans-serif;
@@ -97,34 +97,34 @@ body{   /*Contributor: Jiayuan Wen */
     transition: all 0.3s ease;
 }
 
-img{    /*Contributor: Jiayuan Wen */
+img{    /*Contributor: Jiayuan Wen, Yuying Jin */
     height:320px;
     filter: brightness(0.5);
     transition: all 0.3s ease;
 }
 
-.buttons:hover {    /*Contributor: Jiayuan Wen */
+.buttons:hover {    /*Contributor: Jiayuan Wen, Yuying Jin */
     opacity: 1;
     transform: scale(1.05);
     transition: all 0.3s ease;
 }
-.buttons:hover .layer{  /*Contributor: Jiayuan Wen */
+.buttons:hover .layer{  /*Contributor: Jiayuan Wen, Yuying Jin */
     opacity: 0.7;
     width: 95%;
     transition: all 0.3s ease;
 }
-.buttons:hover p{   /*Contributor: Jiayuan Wen */
+.buttons:hover p{   /*Contributor: Jiayuan Wen, Yuying Jin */
     opacity: 1;
     transform: scale(1.3);
     transition: all 0.3s ease;
 }
-.buttons:hover img{ /*Contributor: Jiayuan Wen */
+.buttons:hover img{ /*Contributor: Jiayuan Wen, Yuying Jin */
     height:360px;
     filter: brightness(0.3);
     transition: all 0.3s ease;
 }
 
-.bg-video{  /*Contributor: Jiayuan Wen */
+.bg-video{  /*Contributor: Yuying Jin */
     object-fit:cover;
     width:100vw;
     height:100vh;
