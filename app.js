@@ -3,6 +3,7 @@
 //Import modules //Contributor: Jiayuan Wen
 const express = require("express")
 var path = require('path');
+const myMod = require("./itemDescriptions/itemDescriptions");
 
 //Set up Express //Contributor: Jiayuan Wen
 const app = express()
@@ -42,58 +43,62 @@ app.get("/aboutus",function(req, res) {
 app.get("/project", function (req,res){
     console.log(`Respond status code: ${res.statusCode}`);
 
+    //Import project descriptions from itemDescriptions.js
+    const description = require("./itemDescriptions/itemDescriptions")
+
     //id determines the content to be shown in item entry
     var ProjID = req.query.id;
+
     switch (ProjID) {
         case 'Classic-White-Audiosurf-2':
             var itemName = 'Classic White (Audiosurf 2)';
             var type = 'Skin';
-            var desc = 'This is the description for Classic White Audiosurf 2.';
+            var desc = description.classicWhite_AS2;
             break;
         case 'Star-Rider-Audiosurf-2':
             var itemName = 'Star Rider (Audiosurf 2)';
             var type = 'Skin';
-            var desc = 'This is the description for Classic White Audiosurf 2.';
+            var desc = description.starRider_AS2;
             break;
         case 'Sore-Ga-Daijin-Beat-Saber':
             var itemName = 'Sore Ga Daijin それが大事 (Beat Saber)';
             var type = 'Level';
-            var desc = 'This is the description for Classic White Audiosurf 2.';
+            var desc = description.soreGaDaijin_BS;
             break;
         case 'Eurodancer-Beat-Saber':
             var itemName = 'Eurodancer (Beat Saber)';
             var type = 'Level';
-            var desc = 'This is the description for Classic White Audiosurf 2.';
+            var desc = description.eurodancer_BS;
             break;
         case 'Half-Life-Theme-Beat-Saber':
             var itemName = 'Half-Life End Credits Theme (Beat Saber)';
             var type = 'Level';
-            var desc = 'This is the description for Classic White Audiosurf 2.';
+            var desc = description.halfLifeTheme_BS;
             break;
         case 'Ho-Ho-Ho-Beat-Saber':
             var itemName = 'Ho Ho Ho (Beat Saber)';
             var type = 'Level';
-            var desc = 'This is the description for Classic White Audiosurf 2.';
+            var desc = description.hoHoHo_BS;
             break;
         case 'Spectre-Beat-Saber':
             var itemName = 'Spectre (Beat Saber)';
             var type = 'Level';
-            var desc = 'This is the description for Classic White Audiosurf 2.';
+            var desc = description.spectre_BS;
             break;
         case 'Spectre-(Old)-Beat-Saber':
             var itemName = 'Spectre[Old] (Beat Saber)';
             var type = 'Level';
-            var desc = 'This is the description for Classic White Audiosurf 2.';
+            var desc = description.spectreOld_BS;
             break;
         case 'Kokoro-Beat-Saber':
             var itemName = 'Kokoro ココロ (Beat Saber)';
             var type = 'Level';
-            var desc = 'This is the description for Classic White Audiosurf 2.';
+            var desc = description.kokoro_BS;
             break;
         case 'Summer-Vibes-Beat-Saber':
             var itemName = 'Summer Vibes (Beat Saber)';
             var type = 'Level';
-            var desc = 'This is the description for Classic White Audiosurf 2.';
+            var desc = description.summerVibe_BS;
             break;
         default:
             res.redirect('/gallery'); //Redirect to gallery in case of non-existent entry

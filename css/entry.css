@@ -3,19 +3,14 @@
     --purple: #6931f9;
     --containerSize: 950px;
 }
-html {
+html { /*Contributor: Jiayuan Wen */
     scroll-behavior: smooth;
 }
-body{
+body{ /*Contributor: Jiayuan Wen */
     background-color:white;
 
 }
-p{
-    color:white;
-    font-family:arial, helvetica, sans-serif;
-    font-size:16px;
-}
-#top{
+#top{ /*Contributor: Jiayuan Wen */
     color:white;
     text-align: left;
     font-family: Arial;
@@ -23,7 +18,7 @@ p{
     font-size: 30px;
     margin-bottom:10px;
 }
-#titleLine{
+#titleLine{ /*Contributor: Jiayuan Wen */
     height:15px;
     width:calc(-50px + var(--containerSize));
     stroke:var(--purple);
@@ -47,8 +42,9 @@ p{
 
 .wikiWrapper{   /*Contributor: Jiayuan Wen */
     width:700px;
-    flex-wrap:wrap;
-    justify-content: left;
+    color:white;
+    font-family:arial, helvetica, sans-serif;
+    font-size:16px;
 }
 
 canvas{ /*Contributor: Jiayuan Wen */
@@ -62,7 +58,7 @@ canvas{ /*Contributor: Jiayuan Wen */
     left:0;
     right:0;
 }
-#goTop{
+#goTop{ /*Contributor: Jiayuan Wen */
     width: 60px;
     height: 60px;
     position: fixed;
@@ -76,6 +72,6 @@ canvas{ /*Contributor: Jiayuan Wen */
     opacity: 0.7;
 }
 
-#goTop:hover{
+#goTop:hover{ /*Contributor: Jiayuan Wen */
     opacity:1;
 }
