@@ -7,10 +7,6 @@
 html {
     scroll-behavior: smooth;
 }
-body{
-    background-color:white;
-
-}
 p{
     color:white;
     font-family:arial, helvetica, sans-serif;
@@ -19,10 +15,10 @@ p{
 h1{
     color:white;
     margin-left:-550px;
+    margin-bottom:10px;
     font-family: Arial;
     font-weight:lighter;
     font-size: 30px;
-    margin-bottom:10px;
 }
 #titleLine{
     height:15px;
@@ -33,7 +29,6 @@ h1{
 .galleryContainer{
     height: auto;
     width:var(--containerSize);
-    margin:auto;
     top:-10px;
     display: flex;
     flex-direction: column;
@@ -42,8 +37,7 @@ h1{
     overflow: hidden;
     padding-top:30px;
     padding-bottom:50px;
-    margin-top:-30px;
-    margin-bottom:-10px;
+    margin: -30px auto -10px;
 }
 
 .galleryWrapper{
@@ -76,7 +70,6 @@ h1{
     height: 40%;
     width: 100%;
     opacity: 0.8;
-    /*background: var(--darkgrey);*/
     transition: all 0.3s ease;
 }
 .layer p {
@@ -97,7 +90,6 @@ h1{
     transition: all 0.3s ease;
 }
 .gallery:hover p{
-    transform: scale(1);
     transition: all 0.3s ease;
 }
 .gallery:hover img{

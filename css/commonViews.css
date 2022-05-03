@@ -70,10 +70,7 @@ a:hover{
 footer{
     list-style-type: none;
     text-align:center;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-top: 15px;
+    padding: 15px 50px 50px;
     color: rgb(105,49,249);
     background-color: 	rgb(23,23,23);
 

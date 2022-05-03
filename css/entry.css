@@ -6,10 +6,7 @@
 html { /*Contributor: Jiayuan Wen */
     scroll-behavior: smooth;
 }
-body{ /*Contributor: Jiayuan Wen */
-    background-color:white;
 
-}
 #top{ /*Contributor: Jiayuan Wen */
     color:white;
     text-align: left;
@@ -27,7 +24,6 @@ body{ /*Contributor: Jiayuan Wen */
 .wikiContainer{ /*Contributor: Jiayuan Wen */
     height: auto;
     width:var(--containerSize);
-    margin:auto;
     top:-10px;
     display: flex;
     flex-direction: column;
@@ -36,8 +32,7 @@ body{ /*Contributor: Jiayuan Wen */
     overflow: hidden;
     padding-top:30px;
     padding-bottom:50px;
-    margin-top:-10px;
-    margin-bottom:-10px;
+    margin: -10px auto;
 }
 
 .wikiWrapper{   /*Contributor: Jiayuan Wen */
