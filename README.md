@@ -26,47 +26,59 @@ Underwork
 Our idea for our project is to create a portfolio website that will showcase projects we made for various video games (such as skins, game modes, and levels). Each showcased project will have its own page with development history and pictures (with videos if applicable). 
 
 ## Front end
-Uses EJS(html) and CSS files to determine the appearance and placement of text, images, and videos for the site’s pages. Uses EJS(html) to send page requests to backend.
+Uses EJS(html), CSS, and frontend JavaScript files to determine the appearance and placement of text, images, and videos for the site’s pages. Some frontend JavaScript scripts are used to pass queries to backend. 
 
 ## Back end
-Uses Node.js to run basic server. Uses Express to receive page requests then render associating EJS(html) and accommodating CSS files into web pages.
+Uses Node.js to run server. Uses Express to receive page requests and render associating EJS(html) and accommodating CSS, image, and video files into web pages.
 
 ## Web App Behavior
-* **Navigation hyperlinks in sidebar, header, and footer** 
+* **Navigation hyperlinks in sidebar, header, and footer** \
 Hyperlinks to sidebar, header, and footer. Allow users to jump to other pages conveniently.
 
 
-* **Stylized interactive text and images** 
+* **Stylized interactive text and images** \
 If users hover on a hyperlink or clickable text, the text color changes. If users hover on a clickable image, the image performs a zoom animation.
 
 
-* **Gallery page & stylized content listing** 
+* **Gallery page & stylized content listing** \
 All projects are listed in grid fashion and classified based on their associated game. Each project includes a thumbnail and title. Users will be able to click on a thumbnail and be directed to the project’s page.
 
 
-* **Background video for each page** 
+* **One page, multiple endpoints** \
+All projects in Gallery lead to one page, but display different content depend on the project you clicked. 
+
+
+* **Background video for each page** \
 The background of all pages of the site is animated with either video or custom made animation.
 
 
-* **Proper error handling** 
+* **Proper error handling** \
 Redirect to error page to the users when accessing non-endpoint or unauthorized endpoints. (such as 404 for nonexistent pages). 
 
-* **Redirect on mistyped path** 
+* **Redirect on mistyped path** \
 Redirect users to correct path if potential incorrect path is entered. (Ex. ‘/about’ and ‘/us’ for About Us;‘ /home’, ‘/index’ and ‘/main’ for homepage)
+
+* **Contact information pop-up** \
+There are “Contact” buttons under each developer’s name in About Us page, click on one of those buttons shows the associated developer’s role in development and their contact information. 
+
 
 
 ## Endpoints
-* Home  
-The home page will contain a short description of the site and will have an animated background on the side.
+* **Home** \
+The home page contains a short description of the site’s purpose and two buttons to either Gallery or About Us.
 
-* Gallery  
-The gallery will list the item available in a grid fashion and can be sorted alphabetically or by the date they were released(sorting is a stretch-goal).
 
-* About Us  
-The about us page will give a brief description of ourselves and will also contain our contact information.
+* **Gallery** \
+The gallery lists the projects in a grid fashion. Each project is a button that directs the user to that project’s page.
 
-* Dedicated pages for projects  
-Pages for individual projects that will describe and give information on that given project. Unlike all the other pages, its background will be entirely animated (Dimmed for visibility).
+
+* **About Us** \
+The about us page contains a brief description of ourselves and “Contact” buttons to show our role in development and contact information.
+
+
+* **Project pages** \
+Pages for individual projects that will describe and give information on that project.
+
 
 <sub>*All pages will contain a header and a footer that will navigate to other pages of the site. The footer will also contain copyright and contact information.</sub>
 
