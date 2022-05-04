@@ -19,7 +19,7 @@ Underwork
 4. For Windows, open cmd; For Linux, open terminal.
 5. Type `cd <Inside your ‘Project’ folder>`. Replace <Inside your ‘Project’ folder> with your “Project” folder path.
 6. Type `node app.js`.
-   ( If you see the following line: `Server running on URL: http://localhost:3000`, the project is running. Otherwise, feel free to open an issue [here](https://github.com/Yuying-Jin/CS421proj/issues) if you have a GitHub account or email us at [weldonwen@yandex.com](mailto:weldonwen@yandex.com))
+   ( If you see the following line: `Server running on URL: http://localhost:3000`, the project is running. Otherwise, feel free to open an issue [here](https://github.com/Yuying-Jin/CS421proj/issues).)
 7. Open a browser and enter http://localhost:3000 for URL.
 
 ## Our Idea
