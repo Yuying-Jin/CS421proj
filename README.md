@@ -1,4 +1,12 @@
 # CMPSC421 Project: Weldon's Portfolio Site
+
+### Home:
+![image](https://user-images.githubusercontent.com/91281147/171523457-81602ef5-cc06-47b3-96c9-c1edfbbb8b89.png)
+### Gallery:
+[![gallery.png](https://i.postimg.cc/43251NYY/gallery.png)](https://postimg.cc/1g6wmScS)
+### Item entry:
+[![proj-ENtry.png](https://i.postimg.cc/sgQD2T5b/proj-ENtry.png)](https://postimg.cc/Yv7wnfnx)
+
 ## Team Name
 Underwork
 
