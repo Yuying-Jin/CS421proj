@@ -1,10 +1,24 @@
 # CMPSC421 Project: Weldon's Portfolio Site
 
-### Home:
+### Contents:
+* [Screenshots](https://github.com/Yuying-Jin/CS421proj#screenshots)
+* [Team](https://github.com/Yuying-Jin/CS421proj#team-name)
+* [Our idea](https://github.com/Yuying-Jin/CS421proj#our-idea)
+* [How to run this project](https://github.com/Yuying-Jin/CS421proj#run-the-project)
+* [Front end & Back end](https://github.com/Yuying-Jin/CS421proj#front-end)
+* [Web app behaviors & functions](https://github.com/Yuying-Jin/CS421proj#web-app-behavior)
+* [Endpoints](https://github.com/Yuying-Jin/CS421proj#endpoints)
+* [Tools used](https://github.com/Yuying-Jin/CS421proj#tools-used)
+* [Minimal viable product features](https://github.com/Yuying-Jin/CS421proj#minimal-viable-product-features)
+* [Stretch goals](https://github.com/Yuying-Jin/CS421proj#stretch-goals)
+<br>
+
+## Screenshots
+### Home
 ![image](https://user-images.githubusercontent.com/91281147/171523457-81602ef5-cc06-47b3-96c9-c1edfbbb8b89.png)
-### Gallery:
+### Gallery
 [![gallery.png](https://i.postimg.cc/43251NYY/gallery.png)](https://postimg.cc/1g6wmScS)
-### Item entry:
+### Item entry
 [![proj-ENtry.png](https://i.postimg.cc/sgQD2T5b/proj-ENtry.png)](https://postimg.cc/Yv7wnfnx)
 
 ## Team Name
