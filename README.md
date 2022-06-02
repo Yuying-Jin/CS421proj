@@ -2,7 +2,7 @@
 
 ### Contents:
 * [Screenshots](https://github.com/Yuying-Jin/CS421proj#screenshots)
-* [Team](https://github.com/Yuying-Jin/CS421proj#team-name)
+* [Team](https://github.com/Yuying-Jin/CS421proj#team)
 * [Our idea](https://github.com/Yuying-Jin/CS421proj#our-idea)
 * [How to run this project](https://github.com/Yuying-Jin/CS421proj#run-the-project)
 * [Front end & Back end](https://github.com/Yuying-Jin/CS421proj#front-end)
@@ -21,15 +21,9 @@
 ### Item entry
 [![proj-ENtry.png](https://i.postimg.cc/sgQD2T5b/proj-ENtry.png)](https://postimg.cc/Yv7wnfnx)
 
-## Team Name
-Underwork
-
-## Team Members 
-
-* Yaoqi Dong
-* Yuying Jin
-* Tommy Fornear
-* Jiayuan Wen
+## Team
+**Name:** Underwork \
+**Members:** Yaoqi Dong, Yuying Jin, Tommy Fornear, Jiayuan Wen
 
 ## Run the Project
 1. Grab a zip of the project at project GitHub repo releases: https://github.com/Yuying-Jin/CS421proj/releases.
