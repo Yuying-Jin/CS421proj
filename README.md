@@ -1,6 +1,6 @@
 # CMPSC421 Project: Weldon's Portfolio Site
 
-### Contents:
+### Table of Contents:
 * [Screenshots](https://github.com/Yuying-Jin/CS421proj#screenshots)
 * [Team](https://github.com/Yuying-Jin/CS421proj#team)
 * [Our idea](https://github.com/Yuying-Jin/CS421proj#our-idea)
