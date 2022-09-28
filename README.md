@@ -15,11 +15,11 @@
 
 ## Screenshots
 ### Home
-![image](https://user-images.githubusercontent.com/91281147/171523457-81602ef5-cc06-47b3-96c9-c1edfbbb8b89.png)
+![home](https://github.com/Yuying-Jin/CS421proj/blob/project/preview/home.png)
 ### Gallery
-[![gallery.png](https://i.postimg.cc/43251NYY/gallery.png)](https://postimg.cc/1g6wmScS)
+![gallery](https://github.com/Yuying-Jin/CS421proj/blob/project/preview/gallery.png)
 ### Item entry
-[![proj-ENtry.png](https://i.postimg.cc/sgQD2T5b/proj-ENtry.png)](https://postimg.cc/Yv7wnfnx)
+![project entry](https://github.com/Yuying-Jin/CS421proj/blob/project/preview/proj-ENtry.png)
 
 ## Team
 **Name:** Underwork \
