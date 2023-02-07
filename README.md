@@ -5,13 +5,13 @@
 * [Team](https://github.com/Yuying-Jin/CS421proj#team)
 * [Our idea](https://github.com/Yuying-Jin/CS421proj#our-idea)
 * [How to run this project](https://github.com/Yuying-Jin/CS421proj#run-the-project)
-* [Front end & Back end](https://github.com/Yuying-Jin/CS421proj#front-end)
 * [Web app behaviors & functions](https://github.com/Yuying-Jin/CS421proj#web-app-behavior)
 * [Endpoints](https://github.com/Yuying-Jin/CS421proj#endpoints)
 * [Tools used](https://github.com/Yuying-Jin/CS421proj#tools-used)
 * [Minimal viable product features](https://github.com/Yuying-Jin/CS421proj#minimal-viable-product-features)
 * [Stretch goals](https://github.com/Yuying-Jin/CS421proj#stretch-goals)
-<br>
+
+<!-- * [Front end & Back end](https://github.com/Yuying-Jin/CS421proj#front-end) -->
 
 ## Screenshots
 ### Home
@@ -22,8 +22,12 @@
 ![project entry](https://github.com/Yuying-Jin/CS421proj/blob/project/preview/proj-ENtry.png)
 
 ## Team
-**Name:** Underwork \
-**Members:** Yaoqi Dong, Yuying Jin, Tommy Fornear, Jiayuan Wen
+* [Jiayuan Wen](https://github.com/JiayuanWen)
+* [Yaoqi Dong](https://github.com/yaoqidong)
+* [Yuying Jin](https://github.com/Yuying-Jin)
+* [Tommy Fornear](https://github.com/tjf5611)
+
+<br/>
 
 ## Run the Project
 1. Grab a zip of the project at project GitHub repo releases: https://github.com/Yuying-Jin/CS421proj/releases.
@@ -41,11 +45,13 @@
 ## Our Idea
 Our idea for our project is to create a portfolio website that will showcase projects we made for various video games (such as skins, game modes, and levels). Each showcased project will have its own page with development history and pictures (with videos if applicable). 
 
+<!--
 ## Front end
 Uses EJS(html), CSS, and frontend JavaScript files to determine the appearance and placement of text, images, and videos for the site’s pages. Some frontend JavaScript scripts are used to pass queries to backend. 
 
 ## Back end
 Uses Node.js to run server. Uses Express to receive page requests and render associating EJS(html) and accommodating CSS, image, and video files into web pages.
+-->
 
 ## Web App Behavior
 * **Navigation hyperlinks in sidebar, header, and footer** \
