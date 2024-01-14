@@ -15,11 +15,13 @@ a:hover{
 
 .navbar-brand{
     font-family: "Arial Black";
+    /*position: absolute;
+    left: 20px;*/
 }
-.navbar-brand:hover{
-    font-family: "Arial Black";
-    color: rgb(255,255,255);
-}
+    .navbar-brand:hover{
+        font-family: "Arial Black";
+        color: rgb(255,255,255);
+    }
 
 .navbar{
     list-style-type: none;
@@ -50,15 +52,17 @@ a:hover{
     font-weight: bold;
     color: rgb(105,49,249);
 }
-.nav-link:hover{
-    font-weight: bold;
-    /*font-family: "Arial Black";*/
-    color: rgb(255,255,255);
-}
+    .nav-link:hover{
+        font-weight: bold;
+        /*font-family: "Arial Black";*/
+        color: rgb(255,255,255);
+    }
 .text-purple{
     color: rgb(105,49,249);
 }
-
+.text-white{
+    color: rgb(255, 255, 255);
+}
 .text-black{
     color: black;
 }
@@ -80,7 +84,10 @@ footer{
 }
 .footerDescription{
     font-size: 18px;
-    color: rgb(105,49,249);
+    color: white;
+}
+.footerNav {
+    color: white;
 }
 .copyright{
     background: rgb(105,49,249);

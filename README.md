@@ -1,4 +1,4 @@
-# CMPSC421 Project: Weldon's Portfolio Site
+# CMPSC421 Project: WEL ADDONS
 
 ### Table of Contents:
 * [Screenshots](https://github.com/Yuying-Jin/CS421proj#screenshots)

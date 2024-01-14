@@ -13,7 +13,7 @@
     font-size: 70px;
     line-height: 1.1;
     margin-bottom:10px;
-    height: 250px;
+    height: 150px;
     width: 950px;
 }
 .siteDescription {  /*Contributor: Jiayuan Wen */
@@ -22,12 +22,12 @@
     font-size:18px;
     text-align: center;
     line-height: 1.4;
-    width: 750px;
+    width: 850px;
     height: 100px;
 }
 #splitLineTop{  /*Contributor: Jiayuan Wen */
     background: #171717;
-    height:50px;
+    height:40px;
     width:calc(var(--containerSize));
     stroke:var(--purple);
     stroke-width: 8;
@@ -40,7 +40,7 @@
 }
 
 .homeContainer{ /*Contributor: Jiayuan Wen */
-    height: calc(100vh + 200px);
+    height: calc(100vh + 100px);
     width: var(--containerSize);
     margin:auto;
     top:-10px;
@@ -115,7 +115,7 @@ img{    /*Contributor: Jiayuan Wen, Yuying Jin */
     transition: all 0.3s ease;
 }
 .buttons:hover img{ /*Contributor: Jiayuan Wen, Yuying Jin */
-    height:360px;
+    /*height:360px;*/
     filter: brightness(0.3);
     transition: all 0.3s ease;
 }
