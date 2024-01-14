@@ -2,16 +2,18 @@
 
 ### Table of Contents:
 * [Screenshots](https://github.com/Yuying-Jin/CS421proj#screenshots)
-* [Team](https://github.com/Yuying-Jin/CS421proj#team)
 * [Our idea](https://github.com/Yuying-Jin/CS421proj#our-idea)
-* [How to run this project](https://github.com/Yuying-Jin/CS421proj#run-the-project)
+* [Team](https://github.com/Yuying-Jin/CS421proj#team)
+* [Run the project](https://github.com/Yuying-Jin/CS421proj#run-the-project)
 * [Web app behaviors & functions](https://github.com/Yuying-Jin/CS421proj#web-app-behavior)
 * [Endpoints](https://github.com/Yuying-Jin/CS421proj#endpoints)
 * [Tools used](https://github.com/Yuying-Jin/CS421proj#tools-used)
 * [Minimal viable product features](https://github.com/Yuying-Jin/CS421proj#minimal-viable-product-features)
-* [Stretch goals](https://github.com/Yuying-Jin/CS421proj#stretch-goals)
 
-<!-- * [Front end & Back end](https://github.com/Yuying-Jin/CS421proj#front-end) -->
+<!-- 
+* [Front end & Back end](https://github.com/Yuying-Jin/CS421proj#front-end) 
+* [Stretch goals](https://github.com/Yuying-Jin/CS421proj#stretch-goals)
+-->
 
 ## Screenshots
 ### Home
@@ -20,6 +22,9 @@
 ![gallery](https://github.com/Yuying-Jin/CS421proj/blob/project/preview/gallery.png)
 ### Item entry
 ![project entry](https://github.com/Yuying-Jin/CS421proj/blob/project/preview/proj-ENtry.png)
+
+## Our Idea
+Our idea for our project is to create a showcase website that will showcase addons we made for various video games (such as skins, game modes, and levels). Each showcased addon will have its own page with development history and pictures & videos. 
 
 ## Team
 * [Jiayuan Wen](https://github.com/JiayuanWen)
@@ -30,20 +35,36 @@
 <br/>
 
 ## Run the Project
-1. Grab a zip of the project at project GitHub repo releases: https://github.com/Yuying-Jin/CS421proj/releases.
+1. Install `Node.js` and `git` on your system. 
+2. Open a terminal (Terminal for Linux, PowerShell or CMD for Windows), navigate to a location of your choice:
+   ``` bash
+   # Windows
+   cd "C:\Path\to\location"
 
-2. Extract the “Project” folder to a location of your choice. (Skip to step 4 if you already have node.js)
+   # Linux
+   cd /Path/to/location/
+   ``` 
+3. Clone this repository using the https protocol:
+   ``` bash
+   git clone https://github.com/JiayuanWen/Gamexihib.git
+   ```
+4. Navigate into the repository:
+   ``` bash
+   # Windows
+   cd .\CS421proj
 
-3. Download and install Node.js at https://nodejs.org/en/download/ .
+   # Linux
+   cd ./CS421proj
+   ```
+5. Run the project with: 
+   ``` bash
+   node app.js
+   ```
+   > If you see the following line: `Server running on URL: http://localhost:3000`, the project is running correctly. 
+   > 
+   > If you encounter any issue, feel free to open an issue [here](https://github.com/Yuying-Jin/CS421proj/issues).
 
-4. For Windows, open cmd; For Linux, open terminal.
-5. Type `cd <Inside your ‘Project’ folder>`. Replace <Inside your ‘Project’ folder> with your “Project” folder path.
-6. Type `node app.js`.
-   ( If you see the following line: `Server running on URL: http://localhost:3000`, the project is running. Otherwise, feel free to open an issue [here](https://github.com/Yuying-Jin/CS421proj/issues).)
-7. Open a browser and enter http://localhost:3000 for URL.
-
-## Our Idea
-Our idea for our project is to create a portfolio website that will showcase projects we made for various video games (such as skins, game modes, and levels). Each showcased project will have its own page with development history and pictures (with videos if applicable). 
+6. Open a browser and enter http://localhost:3000 for URL, note that the protocol is `http` not `https`.
 
 <!--
 ## Front end
@@ -52,6 +73,7 @@ Uses EJS(html), CSS, and frontend JavaScript files to determine the appearance a
 ## Back end
 Uses Node.js to run server. Uses Express to receive page requests and render associating EJS(html) and accommodating CSS, image, and video files into web pages.
 -->
+
 
 ## Web App Behavior
 * **Navigation hyperlinks in sidebar, header, and footer** \
@@ -63,11 +85,11 @@ If users hover on a hyperlink or clickable text, the text color changes. If user
 
 
 * **Gallery page & stylized content listing** \
-All projects are listed in grid fashion and classified based on their associated game. Each project includes a thumbnail and title. Users will be able to click on a thumbnail and be directed to the project’s page.
+All addons are listed in grid fashion and classified based on their associated game. Each addon includes a thumbnail and title. Users will be able to click on a thumbnail and be directed to the addon’s page.
 
 
-* **One page, multiple endpoints** \
-All projects in Gallery lead to one page, but display different content depend on the project you clicked. 
+* **One endpoint, dynamic content** \
+All addons in Gallery lead to one page, but display different content depend on the addon you clicked. 
 
 
 * **Background video for each page** \
@@ -91,15 +113,15 @@ The home page contains a short description of the site’s purpose and two butto
 
 
 * **Gallery** \
-The gallery lists the projects in a grid fashion. Each project is a button that directs the user to that project’s page.
+The gallery lists the addons in a grid fashion. Each addon is a button that directs the user to that addon’s page.
 
 
 * **About Us** \
 The about us page contains a brief description of ourselves and “Contact” buttons to show our role in development and contact information.
 
 
-* **Project pages** \
-Pages for individual projects that will describe and give information on that project.
+* **Addon description pages** \
+Pages for individual addons that will describe and give information on that addon.
 
 
 <sub>*All pages will contain a header and a footer that will navigate to other pages of the site. The footer will also contain copyright and contact information.</sub>
@@ -121,26 +143,25 @@ Pages for individual projects that will describe and give information on that pr
 * The homepage will have the website’s title, under the title is a short description of what the website is showcasing. Below both title and description are navigation buttons for Gallery and About Us, clicking on them will direct users to the associated page.
 
 
-* The Gallery page will display thumbnails and titles of showcased projects in a grid fashion. Each thumbnail is clickable and will direct users to the item’s dedicated page. Each thumbnail will perform a small zoom animation on mouse hover. 
+* The Gallery page will display thumbnails and titles of showcased addons in a grid fashion. Each thumbnail is clickable and will direct users to the item’s dedicated page. Each thumbnail will perform a small zoom animation on mouse hover. 
 
-* Each project’s page will have pictures, videos, description, and development history associated with said project, similar to a wiki entry. If the project is publicly available, a hyperlink to the project’s download page will be added to the end of the project’s page. 
+* Each addon’s page will have pictures, videos, description, and development history associated with said addon, similar to a wiki entry. If the addon is publicly available, a hyperlink to the addon’s download links will be added to the end of the addon’s page. 
 
 * The error page will display the error code to the user, common error codes such as 404 or 202 will have a description below the code. The page will still follow the color scheme of the other pages and will still contain the header and footer.
 
-* For the homepage, Gallery, and About Us, the background will play a video consisting of various showcased projects in action. The main body of these pages will be a static color so that the background video is only visible from the sides.
+* For the homepage, Gallery, and About Us, the background will play a video consisting of various showcased addons in action. The main body of these pages will be a static color so that the background video is only visible from the sides.
 
-* For each project’s page, the background will play a video related to that project only. The body will be semi-transparent so that the background video is fully visible but dark enough to not disrupt reading. 
-
-* Sidebar will appear for Gallery and each project’s page, not the case for Home and About Us.
+* Sidebar will appear for Gallery and each addon’s page for easier page navigation mid-article.
 
 * Interactive text, such as hyperlinks, will change color on hover.
 
 * The About Us page will contain information about the developers and the website. It will also contain our contact information so that the users may contact us. 
 
+<!--
 ## Stretch Goals
-* Implementing a search function and a search result page that will allow the user to search for a specific project(s).
+* Implementing a search function and a search result page that will allow the user to search for a specific addon(s).
 
-* Implementing a sorting function in Gallery and Search Result that will sort the project thumbnails alphabetically or by their release date.
+* Implementing a sorting function in Gallery and Search Result that will sort the addon thumbnails alphabetically or by their release date.
 
 * Implement comment API, which allows users to post comments with or without an account at the bottom of each item’s page (Emojis, pictures, and GIFs are also allowed).
-
+-->
