@@ -61,7 +61,7 @@ Our idea for our project is to create a showcase website that will showcase addo
    node app.js
    ```
    
-   > [!NOTE]
+   > **📝 NOTE** \
    > If you see the following line: `Server running on URL: http://localhost:3000`, the project is running correctly. 
    > 
    > If you encounter any issue, feel free to open an issue [here](https://github.com/Yuying-Jin/CS421proj/issues).
