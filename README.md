@@ -20,7 +20,7 @@
 ![home](https://github.com/Yuying-Jin/CS421proj/blob/project/preview/home.png)
 ### Gallery
 ![gallery](https://github.com/Yuying-Jin/CS421proj/blob/project/preview/gallery.png)
-### Item entry
+### Addon Article
 ![project entry](https://github.com/Yuying-Jin/CS421proj/blob/project/preview/proj-ENtry.png)
 
 ## Our Idea
@@ -60,6 +60,7 @@ Our idea for our project is to create a showcase website that will showcase addo
    ``` bash
    node app.js
    ```
+   > [!NOTE] 
    > If you see the following line: `Server running on URL: http://localhost:3000`, the project is running correctly. 
    > 
    > If you encounter any issue, feel free to open an issue [here](https://github.com/Yuying-Jin/CS421proj/issues).

@@ -107,3 +107,35 @@ footer{
 .bg-black{
     background: rgb(23,23,23);
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--darkgrey);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--purple);
+    /*border-radius: 99px;*/
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #ffffff;
+}
+
+/* Firefox scrollbar */
+* {
+scrollbar-width: thin;
+scrollbar-color: var(--purple) var(--darkgrey);
+}
+
+/* Firefox scrollbar on hover 
+*::hover {
+scrollbar-color: #555 #f1f1f1;
+}
+*/
