@@ -60,12 +60,13 @@ Our idea for our project is to create a showcase website that will showcase addo
    ``` bash
    node app.js
    ```
-   > [!NOTE] 
+   
+   > [!NOTE]
    > If you see the following line: `Server running on URL: http://localhost:3000`, the project is running correctly. 
    > 
    > If you encounter any issue, feel free to open an issue [here](https://github.com/Yuying-Jin/CS421proj/issues).
 
-6. Open a browser and enter http://localhost:3000 for URL, note that the protocol is `http` not `https`.
+6. Open a browser and enter `http://localhost:3000` for URL, note that the protocol is `http` not `https`.
 
 <!--
 ## Front end
